@@ -1,0 +1,101 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{mockito2}{webpage}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{month}{11}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/mockito/mockito/wiki/How-to-write-good-tests
+      \endverb
+      \verb{url}
+      \verb https://github.com/mockito/mockito/wiki/How-to-write-good-tests
+      \endverb
+    \endentry
+    \entry{patronesdisenyo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=abb8edaf9795b609ecfa4989419830ff}{%
+           family={E.\bibnamedelimi Gamma},
+           familyi={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={R.\bibnamedelimi Helm},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ecc299ca10cd28000732db5df93dc6c8}{%
+           family={Lovelle},
+           familyi={L\bibinitperiod},
+           given={Juan\bibnamedelimb Manuel\bibnamedelima Cueva},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison Wesley}%
+      }
+      \strng{namehash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{fullhash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{bibnamehash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{authorbibnamehash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{authornamehash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{authorfullhash}{abb8edaf9795b609ecfa4989419830ff}
+      \strng{editorbibnamehash}{ecc299ca10cd28000732db5df93dc6c8}
+      \strng{editornamehash}{ecc299ca10cd28000732db5df93dc6c8}
+      \strng{editorfullhash}{ecc299ca10cd28000732db5df93dc6c8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{ISBN:84-7829-059-1}
+      \field{title}{Patrones de Diseño}
+      \field{year}{2003}
+    \endentry
+    \entry{granell-estilosarquitectura}{webpage}{}
+      \name{author}{1}{}{%
+        {{hash=ecf0cd41199507d50d168021884b4efb}{%
+           family={Granell\bibnamedelima Canut},
+           familyi={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecf0cd41199507d50d168021884b4efb}
+      \strng{fullhash}{ecf0cd41199507d50d168021884b4efb}
+      \strng{bibnamehash}{ecf0cd41199507d50d168021884b4efb}
+      \strng{authorbibnamehash}{ecf0cd41199507d50d168021884b4efb}
+      \strng{authornamehash}{ecf0cd41199507d50d168021884b4efb}
+      \strng{authorfullhash}{ecf0cd41199507d50d168021884b4efb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EI1039}
+      \field{month}{9}
+      \field{title}{TE2 - Estilos de Arquitectura}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://cgranell.github.io/ei1039/slides/TE2_1_estilos_arquitectura.html#1
+      \endverb
+      \verb{url}
+      \verb https://cgranell.github.io/ei1039/slides/TE2_1_estilos_arquitectura.html#1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

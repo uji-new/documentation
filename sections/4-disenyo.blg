@@ -1,0 +1,17 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'sections/4-disenyo.blg'
+[52] biber-darwin:340> INFO - === Fri Jan  7, 2022, 18:25:19
+[65] Biber.pm:415> INFO - Reading 'sections/4-disenyo.bcf'
+[130] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[143] Biber.pm:4340> INFO - Processing section 0
+[151] Biber.pm:4531> INFO - Looking for bibtex format file 'referencias.bib' for section 0
+[152] bibtex.pm:1689> INFO - LaTeX decoding ...
+[157] bibtex.pm:1494> INFO - Found BibTeX data source 'referencias.bib'
+[178] Utils.pm:395> WARN - legacy month field 'Septiembre' in entry 'granell-estilosarquitectura' is not an integer - this will probably not sort properly.
+[178] Utils.pm:395> WARN - legacy month field 'Noviembre' in entry 'mockito2' is not an integer - this will probably not sort properly.
+[189] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[189] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[189] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[194] bbl.pm:654> INFO - Writing 'sections/4-disenyo.bbl' with encoding 'UTF-8'
+[195] bbl.pm:757> INFO - Output to sections/4-disenyo.bbl
+[195] Biber.pm:128> INFO - WARNINGS: 2

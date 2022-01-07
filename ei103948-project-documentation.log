@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.24)  7 JAN 2022 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.24)  7 JAN 2022 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.tex"
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.tex
+**"/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.tex"
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -961,7 +961,7 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
-)) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/params/comandos.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/params/estilos.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/params/codigostesteo.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/params/descripcionestest.tex) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+)) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/params/comandos.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/params/estilos.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/params/codigostesteo.tex) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/params/descripcionestest.tex) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count490
 \csq@gtype=\count491
@@ -979,7 +979,7 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.aux
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 )
@@ -1078,7 +1078,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
 LaTeX Info: Redefining \nameref on input line 46.
- (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.out) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.out)
+ (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.out) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.out)
 \@outlinefile=\write9
 \openout9 = `ei103948-project-documentation.out'.
 
@@ -1109,7 +1109,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ei103948-project-documentation.bbl' found.
- (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.bbl)
+ (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.bbl)
 Package biblatex Info: Reference section=0 on input line 46.
 Package biblatex Info: Reference segment=0 on input line 46.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 46.
@@ -1253,7 +1253,7 @@ Package pdftex.def Info: images/LogoInicio.png  used on input line 58.
 (pdftex.def)             Requested size: 280.79672pt x 411.65344pt.
  [1.1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/LogoInicio.png>]
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/LogoInicio.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1279,7 +1279,7 @@ File: doclicense-CC-by-nc-nd-88x31.pdf Graphic file (type pdf)
 <use doclicense-CC-by-nc-nd-88x31.pdf>
 Package pdftex.def Info: doclicense-CC-by-nc-nd-88x31.pdf  used on input line 121.
 (pdftex.def)             Requested size: 108.87878pt x 38.10797pt.
-[3.3 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/googledrive.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/githubdessign.png> </usr/local/texlive/2021/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-nd-88x31.pdf>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.toc
+[3.3 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/googledrive.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/githubdessign.png> </usr/local/texlive/2021/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-nd-88x31.pdf>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1287,7 +1287,7 @@ LaTeX Info: Redefining \% on input line 2.
 \tf@toc=\write10
 \openout10 = `ei103948-project-documentation.toc'.
 
- [3.6] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.lof
+ [3.6] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.lof
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1295,11 +1295,11 @@ LaTeX Info: Redefining \% on input line 2.
 \tf@lof=\write11
 \openout11 = `ei103948-project-documentation.lof'.
 
- (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.lol [4.7] [5.8])
+ (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.lol [4.7] [5.8])
 \tf@lol=\write12
 \openout12 = `ei103948-project-documentation.lol'.
 
- [6.9] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.lot
+ [6.9] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.lot
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1311,7 +1311,7 @@ LaTeX Info: Redefining \% on input line 2.
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 147.
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/1-introduccion.tex
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/1-introduccion.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 6.
 
@@ -1349,7 +1349,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.157 \newpage
-               [2.13] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/2-requisitosproyecto.tex
+               [2.13] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/2-requisitosproyecto.tex
 Overfull \hbox (1.83983pt too wide) in paragraph at lines 25--25
 []\T1/cmr/bx/n/10.95 Ubicaciones
  []
@@ -1372,7 +1372,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
 l.61 					\end{center}
                        [3.14] (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History01.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History01.java
 consecutive:
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 16.
@@ -1383,7 +1383,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4.15]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History01.java
+[4.15]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History01.java
 consecutive:
 )
 
@@ -1410,9 +1410,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6.17] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History02.java
+[6.17] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History02.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History02.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1433,7 +1433,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8.19] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History03.java
+[8.19] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History03.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1442,7 +1442,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9.20]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History03.java
+[9.20]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History03.java
 consecutive:
 )
 
@@ -1464,9 +1464,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11.22] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History04.java
+[11.22] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History04.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History04.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1512,7 +1512,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13.24] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History05.java
+[13.24] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History05.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1521,7 +1521,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14.25]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History05.java
+[14.25]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History05.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1538,7 +1538,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16.27] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History06.java
+[16.27] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History06.java
 consecutive:
 )
 
@@ -1548,7 +1548,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17.28] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History06.java
+[17.28] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History06.java
 consecutive:
 )
 
@@ -1570,9 +1570,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19.30] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History07.java
+[19.30] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History07.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History07.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History07.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1593,7 +1593,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21.32] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History08.java
+[21.32] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History08.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1602,7 +1602,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22.33]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History08.java
+[22.33]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History08.java
 consecutive:
 )
 
@@ -1649,7 +1649,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24.35] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History09.java
+[24.35] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History09.java
 consecutive:
 )
 
@@ -1659,7 +1659,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25.36] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History09.java
+[25.36] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History09.java
 consecutive:
 )
 
@@ -1681,7 +1681,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27.38] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement01/History10.java
+[27.38] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement01/History10.java
 consecutive:
 )
 
@@ -1691,7 +1691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28.39] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement01/History10.java
+[28.39] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement01/History10.java
 consecutive:
 )
 
@@ -1719,7 +1719,7 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 621--621
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history01/Subhistory01.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history01/Subhistory01.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history01/Subhistory01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1728,7 +1728,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31.42]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history01/Subhistory01.java
+[31.42]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history01/Subhistory01.java
 consecutive:
 )
 
@@ -1756,9 +1756,9 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 674--674
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history01/Subhistory02.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history01/Subhistory02.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history01/Subhistory02.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history01/Subhistory02.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history01/Subhistory02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1817,9 +1817,9 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 734--734
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history02/Subhistory01.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history02/Subhistory01.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history02/Subhistory01.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history02/Subhistory01.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history02/Subhistory01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1878,9 +1878,9 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 790--790
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history02/Subhistory02.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history02/Subhistory02.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history02/Subhistory02.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history02/Subhistory02.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history02/Subhistory02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1905,9 +1905,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42.53] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/History03.java
+[42.53] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/History03.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/History03.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/History03.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1934,7 +1934,7 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 900--900
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history04/Subhistory01.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history04/Subhistory01.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history04/Subhistory01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1943,7 +1943,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45.56]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history04/Subhistory01.java
+[45.56]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history04/Subhistory01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1970,7 +1970,7 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 957--957
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history04/Subhistory02.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history04/Subhistory02.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history04/Subhistory02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1987,7 +1987,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49.60] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history04/Subhistory02.java
+[49.60] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history04/Subhistory02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2014,7 +2014,7 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 1011--1011
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history04/Subhistory03.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history04/Subhistory03.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history04/Subhistory03.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2023,7 +2023,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52.63]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history04/Subhistory03.java
+[52.63]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history04/Subhistory03.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2067,7 +2067,7 @@ Overfull \hbox (23.37079pt too wide) in paragraph at lines 1066--1066
 []\T1/cmtt/l/it/10.95 src/test/java/app/test/integration/basic/requirement02/history04/Subhistory04.java 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/history04/Subhistory04.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/history04/Subhistory04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2076,7 +2076,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56.67]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/history04/Subhistory04.java
+[56.67]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/history04/Subhistory04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2093,7 +2093,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58.69] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement02/History05.java
+[58.69] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement02/History05.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2102,7 +2102,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[59.70]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement02/History05.java
+[59.70]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement02/History05.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2127,9 +2127,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62.73] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement03/History01.java
+[62.73] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement03/History01.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement03/History01.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement03/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2150,9 +2150,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64.75] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement03/History02.java
+[64.75] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement03/History02.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement03/History02.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement03/History02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2173,7 +2173,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66.77] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement03/History03.java
+[66.77] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement03/History03.java
 consecutive:
 )
 
@@ -2183,7 +2183,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67.78] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement03/History03.java
+[67.78] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement03/History03.java
 consecutive:
 )
 
@@ -2193,7 +2193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68.79] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement03/History04.java
+[68.79] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement03/History04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2202,7 +2202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69.80]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement03/History04.java
+[69.80]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement03/History04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2227,9 +2227,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72.83] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/basic/requirement04/History01.java
+[72.83] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/basic/requirement04/History01.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/basic/requirement04/History01.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/basic/requirement04/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2258,7 +2258,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75.86] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement01/History01.java
+[75.86] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement01/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2267,7 +2267,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[76.87]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement01/History01.java
+[76.87]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement01/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2284,7 +2284,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[78.89] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement01/History02.java
+[78.89] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement01/History02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2293,7 +2293,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79.90]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement01/History02.java
+[79.90]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement01/History02.java
 consecutive:
 )
 
@@ -2315,7 +2315,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[81.92] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement01/History03.java
+[81.92] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement01/History03.java
 consecutive:
 )
 
@@ -2325,7 +2325,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[82.93] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement01/History03.java
+[82.93] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement01/History03.java
 consecutive:
 )
 
@@ -2343,9 +2343,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[84.95] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement01/History04.java
+[84.95] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement01/History04.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement01/History04.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement01/History04.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2370,9 +2370,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[87.98] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement01/History05.java
+[87.98] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement01/History05.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement01/History05.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement01/History05.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2389,7 +2389,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[89.100] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement02/History01.java
+[89.100] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement02/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2398,7 +2398,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[90.101]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement02/History01.java
+[90.101]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement02/History01.java
 consecutive:
 )
 
@@ -2416,7 +2416,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[92.103] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement02/History02.java
+[92.103] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement02/History02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2425,7 +2425,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[93.104]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement02/History02.java
+[93.104]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement02/History02.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2450,9 +2450,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[96.107] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/acceptance/advanced/requirement03/History01.java
+[96.107] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/acceptance/advanced/requirement03/History01.java
 consecutive:
-) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/test/integration/advanced/requirement03/History01.java
+) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/test/integration/advanced/requirement03/History01.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2469,7 +2469,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[98.109] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/3-planificacion.tex
+[98.109] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/3-planificacion.tex
 <images/jerarquiaSpike.png, id=4048, 4284.005pt x 1614.03pt>
 File: images/jerarquiaSpike.png Graphic file (type png)
 <use images/jerarquiaSpike.png>
@@ -2491,7 +2491,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[99.110 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/jerarquiaSpike.png>]
+[99.110 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/jerarquiaSpike.png>]
 
 LaTeX Warning: The counter will not be printed.
              The label is: \quad \quad \faIcon {check-circle} on input line 46.
@@ -2516,7 +2516,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[101.112] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/4-disenyo.tex
+[101.112] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/4-disenyo.tex
 <images/DisenyoArquitecturaSoftware.png, id=4099, 1734.48pt x 1449.415pt>
 File: images/DisenyoArquitecturaSoftware.png Graphic file (type png)
 <use images/DisenyoArquitecturaSoftware.png>
@@ -2530,7 +2530,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[102.113 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/DisenyoArquitecturaSoftware.png>]
+[102.113 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/DisenyoArquitecturaSoftware.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2560,7 +2560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[105.116 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/FrontBackEnd.png>]
+[105.116 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/FrontBackEnd.png>]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 71.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 71.
@@ -2589,7 +2589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[107.118 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/PatronesUtilizadosEsquema.png>]
+[107.118 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/PatronesUtilizadosEsquema.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2611,7 +2611,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[109.120 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/TemplateMethod.png>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/patterns/BaseApi.java
+[109.120 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/TemplateMethod.png>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/patterns/BaseApi.java
 consecutive:
 )
 <images/FactoryMethod.png, id=4160, 3697.815pt x 939.51pt>
@@ -2624,7 +2624,7 @@ Overfull \hbox (5.1925pt too wide) in paragraph at lines 159--161
  |  [] 
  []
 
-(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/patterns/AccountManager.java
+(/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/patterns/AccountManager.java
 consecutive:
 )
 
@@ -2634,7 +2634,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[110.121 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/FactoryMethod.png>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/patterns/BaseQuery.java
+[110.121 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/FactoryMethod.png>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/patterns/BaseQuery.java
 consecutive:
 )
 <images/FacadeMethod.png, id=4181, 2131.965pt x 1059.96pt>
@@ -2642,7 +2642,7 @@ File: images/FacadeMethod.png Graphic file (type png)
 <use images/FacadeMethod.png>
 Package pdftex.def Info: images/FacadeMethod.png  used on input line 179.
 (pdftex.def)             Requested size: 341.12137pt x 169.59706pt.
- (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/code/patterns/QueryManager.java
+ (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/code/patterns/QueryManager.java
 consecutive:
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2651,7 +2651,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[111.122 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/FacadeMethod.png>])
+[111.122 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/FacadeMethod.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2700,7 +2700,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[114.125 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Logos1.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Logos2.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Logos3.png>]
+[114.125 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Logos1.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Logos2.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Logos3.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2708,7 +2708,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[115.126 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Logos4.png>]
+[115.126 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Logos4.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2730,7 +2730,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[117.128 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/LogoIsotipo.png>]
+[117.128 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/LogoIsotipo.png>]
 <images/LogoAcotadotexto.png, id=4247, 3312.375pt x 4284.005pt>
 File: images/LogoAcotadotexto.png Graphic file (type png)
 <use images/LogoAcotadotexto.png>
@@ -2744,7 +2744,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[118.129 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/LogoAcotadotexto.png>]
+[118.129 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/LogoAcotadotexto.png>]
 <images/LogoBanner.png, id=4253, 2745.25626pt x 1156.32pt>
 File: images/LogoBanner.png Graphic file (type png)
 <use images/LogoBanner.png>
@@ -2758,7 +2758,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[119.130 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/LogoBanner.png>]
+[119.130 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/LogoBanner.png>]
 <images/ColoresLogoEsquema.png, id=4259, 4858.15pt x 1096.095pt>
 File: images/ColoresLogoEsquema.png Graphic file (type png)
 <use images/ColoresLogoEsquema.png>
@@ -2777,7 +2777,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[120.131 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/ColoresLogoEsquema.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/LogoCromatico.png>]
+[120.131 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/ColoresLogoEsquema.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/LogoCromatico.png>]
 <images/ColorTyposNoTable.png, id=4267, 6841.56pt x 1096.095pt>
 File: images/ColorTyposNoTable.png Graphic file (type png)
 <use images/ColorTyposNoTable.png>
@@ -2796,14 +2796,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[121.132 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/ColorTyposNoTable.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/ColorTypos2NoTable.png>]
-<images/ColorWebInterfaceGeneral.png, id=4275, 8608.16pt x 5974.32pt>
+[121.132 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/ColorTyposNoTable.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/ColorTypos2NoTable.png>]
+<images/ColorWebInterfaceGeneral.png, id=4275, 8363.245pt x 5745.465pt>
 File: images/ColorWebInterfaceGeneral.png Graphic file (type png)
 <use images/ColorWebInterfaceGeneral.png>
 Package pdftex.def Info: images/ColorWebInterfaceGeneral.png  used on input line 412.
-(pdftex.def)             Requested size: 490.72276pt x 340.57625pt.
+(pdftex.def)             Requested size: 476.76097pt x 327.52998pt.
 
-Overfull \hbox (16.61786pt too wide) in paragraph at lines 411--413
+Overfull \hbox (2.65607pt too wide) in paragraph at lines 411--413
  |  [] 
  []
 
@@ -2814,7 +2814,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[122.133 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/ColorWebInterfaceGeneral.png>]
+[122.133 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/ColorWebInterfaceGeneral.png>]
 <fonts/LMRRegular.png, id=4283, 1445.4pt x 239.89626pt>
 File: fonts/LMRRegular.png Graphic file (type png)
 <use fonts/LMRRegular.png>
@@ -2833,7 +2833,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[123.134 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/LMRRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/LMRItalic.png>]
+[123.134 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/LMRRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/LMRItalic.png>]
 <fonts/LMRBold.png, id=4292, 1445.4pt x 208.78pt>
 File: fonts/LMRBold.png Graphic file (type png)
 <use fonts/LMRBold.png>
@@ -2852,7 +2852,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[124.135 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/LMRBold.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/LMMRegular.png>]
+[124.135 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/LMRBold.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/LMMRegular.png>]
 <fonts/PassionOneRegular.png, id=4304, 1445.4pt x 303.1325pt>
 File: fonts/PassionOneRegular.png Graphic file (type png)
 <use fonts/PassionOneRegular.png>
@@ -2871,7 +2871,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[125.136 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/PassionOneRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/RobotoRegular.png>]
+[125.136 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/PassionOneRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/RobotoRegular.png>]
 <fonts/NunitoSansRegular.png, id=4312, 1445.4pt x 258.9675pt>
 File: fonts/NunitoSansRegular.png Graphic file (type png)
 <use fonts/NunitoSansRegular.png>
@@ -2890,7 +2890,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[126.137 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/NunitoSansRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/fonts/NunitoSansBold.png>]
+[126.137 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/NunitoSansRegular.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/fonts/NunitoSansBold.png>]
 <images/GuiTelefono.png, id=4320, 2262.4525pt x 2011.515pt>
 File: images/GuiTelefono.png Graphic file (type png)
 <use images/GuiTelefono.png>
@@ -2904,7 +2904,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[127.138 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/GuiTelefono.png>]
+[127.138 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/GuiTelefono.png>]
 <images/Boceto1.png, id=4326, 556.0775pt x 386.44376pt>
 File: images/Boceto1.png Graphic file (type png)
 <use images/Boceto1.png>
@@ -2922,7 +2922,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[128.139 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Boceto1.png>]
+[128.139 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Boceto1.png>]
 <images/Boceto2.png, id=4333, 556.0775pt x 385.44pt>
 File: images/Boceto2.png Graphic file (type png)
 <use images/Boceto2.png>
@@ -2940,7 +2940,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[129.140 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Boceto2.png>]
+[129.140 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Boceto2.png>]
 <images/Boceto3.png, id=4339, 548.0475pt x 380.42125pt>
 File: images/Boceto3.png Graphic file (type png)
 <use images/Boceto3.png>
@@ -2958,7 +2958,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[130.141 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Boceto3.png>]
+[130.141 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Boceto3.png>]
 <images/Boceto4.png, id=4345, 562.1pt x 389.455pt>
 File: images/Boceto4.png Graphic file (type png)
 <use images/Boceto4.png>
@@ -2969,16 +2969,11 @@ Overfull \hbox (18.92763pt too wide) in paragraph at lines 604--606
  |  [] 
  []
 
-<images/final1.png, id=4346, 1403.2425pt x 830.10126pt>
+<images/final1.png, id=4346, 1365.1pt x 974.64125pt>
 File: images/final1.png Graphic file (type png)
 <use images/final1.png>
 Package pdftex.def Info: images/final1.png  used on input line 622.
-(pdftex.def)             Requested size: 479.90108pt x 283.88998pt.
-
-Overfull \hbox (14.332pt too wide) in paragraph at lines 621--623
- |  [] 
- []
-
+(pdftex.def)             Requested size: 395.86887pt x 282.63872pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2986,16 +2981,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[131.142 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Boceto4.png>]
-<images/final2.png, id=4353, 1403.2425pt x 830.10126pt>
+[131.142 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Boceto4.png>]
+<images/final2.png, id=4353, 1365.1pt x 974.64125pt>
 File: images/final2.png Graphic file (type png)
 <use images/final2.png>
 Package pdftex.def Info: images/final2.png  used on input line 633.
-(pdftex.def)             Requested size: 479.90108pt x 283.88998pt.
-
-Overfull \hbox (14.332pt too wide) in paragraph at lines 632--634
- |  [] 
- []
+(pdftex.def)             Requested size: 395.86887pt x 282.63872pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3004,17 +2995,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[132.143 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/final1.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/final2.png>]
-<images/final3.png, id=4360, 1403.2425pt x 830.10126pt>
+[132.143 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/final1.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/final2.png>]
+<images/final3.png, id=4360, 1365.1pt x 974.64125pt>
 File: images/final3.png Graphic file (type png)
 <use images/final3.png>
 Package pdftex.def Info: images/final3.png  used on input line 644.
-(pdftex.def)             Requested size: 479.90108pt x 283.88998pt.
-
-Overfull \hbox (14.332pt too wide) in paragraph at lines 643--645
- |  [] 
- []
-
+(pdftex.def)             Requested size: 450.48439pt x 321.6326pt.
 <images/finaltextoautocompletado.png, id=4361, 314.17375pt x 128.48pt>
 File: images/finaltextoautocompletado.png Graphic file (type png)
 <use images/finaltextoautocompletado.png>
@@ -3037,7 +3023,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[133.144 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/final3.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/finaltextoautocompletado.png>]
+[133.144 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/final3.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/finaltextoautocompletado.png>]
 Overfull \vbox (19.31392pt too high) has occurred while \output is active []
 
 
@@ -3048,7 +3034,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[134.145 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/final4.png>]
+[134.145 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/final4.png>]
 <images/final5.png, id=4375, 1504.62125pt x 1716.4125pt>
 File: images/final5.png Graphic file (type png)
 <use images/final5.png>
@@ -3066,7 +3052,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[135.146 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/final5.png>]
+[135.146 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/final5.png>]
 <images/Responsivo.png, id=4381, 1249.66875pt x 502.87875pt>
 File: images/Responsivo.png Graphic file (type png)
 <use images/Responsivo.png>
@@ -3084,14 +3070,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[136.147 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/Responsivo.png>]
-<images/ipadiphonecomparacion.png, id=4387, 1911.14pt x 1409.265pt>
+[136.147 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/Responsivo.png>]
+<images/ipadiphonecomparacion.png, id=4387, 1920.17375pt x 1409.265pt>
 File: images/ipadiphonecomparacion.png Graphic file (type png)
 <use images/ipadiphonecomparacion.png>
 Package pdftex.def Info: images/ipadiphonecomparacion.png  used on input line 708.
-(pdftex.def)             Requested size: 458.68297pt x 338.23051pt.
+(pdftex.def)             Requested size: 460.85112pt x 338.23051pt.
 
-Overfull \hbox (4.495pt too wide) in paragraph at lines 707--709
+Overfull \hbox (6.66315pt too wide) in paragraph at lines 707--709
  |  [] 
  []
 
@@ -3102,7 +3088,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[137.148 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/ipadiphonecomparacion.png>]
+[137.148 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/ipadiphonecomparacion.png>]
 <images/telefonos1.png, id=4395, 3322.4125pt x 4197.6825pt>
 File: images/telefonos1.png Graphic file (type png)
 <use images/telefonos1.png>
@@ -3124,7 +3110,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[138.149 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/telefonos1.png>]
+[138.149 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/telefonos1.png>]
 <images/telefonos2.png, id=4401, 3324.42pt x 4201.6975pt>
 File: images/telefonos2.png Graphic file (type png)
 <use images/telefonos2.png>
@@ -3146,7 +3132,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[139.150 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/telefonos2.png>]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/5-organizacion.tex
+[139.150 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/telefonos2.png>]) (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/5-organizacion.tex
 <images/BannerAPI.png, id=4408, 5400.175pt x 385.44pt>
 File: images/BannerAPI.png Graphic file (type png)
 <use images/BannerAPI.png>
@@ -3160,7 +3146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[140.151 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/images/BannerAPI.png>]
+[140.151 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/BannerAPI.png>]
 File: images/BannerAPI.png Graphic file (type png)
 <use images/BannerAPI.png>
 Package pdftex.def Info: images/BannerAPI.png  used on input line 92.
@@ -3248,7 +3234,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[147.158] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/6-conclusiones.tex
+[147.158] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/6-conclusiones.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3280,7 +3266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[151.162] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/sections/A-apendices.tex
+[151.162] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/sections/A-apendices.tex
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 7.
@@ -3343,7 +3329,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[156.167] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.aux
+[156.167] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.aux
 LaTeX Info: Redefining \sptext on input line 31.
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
@@ -3359,12 +3345,12 @@ Package logreq Info: Writing requests to 'ei103948-project-documentation.run.xml
  ) 
 Here is how much of TeX's memory you used:
  44410 strings out of 478994
- 819272 string characters out of 5858183
+ 826344 string characters out of 5858183
  1961882 words of memory out of 5000000
  57660 multiletter control sequences out of 15000+600000
  425907 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,91p,3396b,2456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,17n,91p,3430b,2456s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exist, replaced by a fixed one
@@ -3406,7 +3392,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Documentación Latex/ei103948-project-documentation.pdf" (167 pages, 33503515 bytes).
+Output written on "/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.pdf" (167 pages, 33010672 bytes).
 PDF statistics:
  5256 PDF objects out of 6186 (max. 8388607)
  4923 compressed objects within 50 object streams

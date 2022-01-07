@@ -22,7 +22,7 @@
 
     El servidor está basado en \textbf{Java} y proporciona esta \textit{API} web que abstrae toda la lógica de negocio. Dando acceso a la gestión de datos del usuario y además todos los datos que necesite el cliente pero normalizados, como el clima o las noticias. Utilizando el patrón \textit{facade} internamente para simplificar el acceso a los diferentes servicios antes de publicarlos.\\
 
-    El cliente está basado en \textbf{React} y proporciona un vista ligera y mínima sobre la \textit{API} en un navegador web, sin lógica alguna para el procesamiento de datos. Dando acceso a una interfaz sencilla que pueda usar cualquier tipo de usuario, similar a la de \textbf{Google Discover} en los dispositivos móviles.\\
+    El cliente está basado en \textbf{React} y proporciona un vista ligera y mínima sobre la \textit{API} en un navegador web, sin lógica alguna para el procesamiento de datos. Dando acceso a una interfaz sencilla que pueda usar cualquier tipo de usuario, similar a la de \textbf{Google Discovery} en los dispositivos móviles.\\
 
     Las pruebas relacionadas con el paradigma \textit{ATDD} se realizan solo en el subsistema del servidor, simplificando así su implementación al excluir la interfaz gráfica. Esto igualmente no reducirá la efectividad de ellas, debido a que la superficie del cliente será mínima. Todas las pruebas integrarán todos los componentes posibles, realizando incluso llamadas \texttt{HTTP} al servidor y acceso a la base de datos del entorno de desarrollo, asegurando así una adecuada configuración de toda la pila.
 
@@ -282,7 +282,7 @@
                                             \item Azul medio (\texttt{HEX}): \texttt{8AB8E6} es el que se usa en el degradado inicial de la figura central (la parte más externa).
                                             \item Azul oscuro (\texttt{HEX}): \texttt{000099} es el que se usa en el degradado final de la figura central (la parte más interna).
                                         \end{itemize}
-                                    \item \textbf{Formato}: El formato de los logotipos es vectorial y en fichero \texttt{.svg} con el fon de poder ampliar y reescalar el logotipo tanto como se requiera sin que pierda calidad. Esta edición y composición se han realizado con Adobe Illustrator 2021.
+                                    \item \textbf{Formato}: El formato de los logotipos es vectorial y en fichero \texttt{.svg} con el fon de poder ampliar y reescalar el logotipo tanto como se requiera sin que pierda calidad. Esta edición y composición se han realizado con \textbf{Adobe Illustrator 2021}.
                                 \end{itemize}
                             
                                 Las medidas que se muestran en los apartados siguientes están expresadas mediante puntos\footnote{\textbf{Punto (pt)}: es una medida utilizada en tipografía y diseño. Cada punto equivale a $\approx$ \texttt{0,0138} pulgadas.}.
@@ -424,7 +424,7 @@
                             
                                 \begin{enumerate}
                                     \item \textbf{Objetivo y público}: Es preciso conocer de antemano el contexto del documento que vamos a tratar, ya sea un documento o aplicativo para un \textit{target} con cierto grado de especialización o un documento para todo tipo de públicos. En este caso, nuestra aplicación va a ser para todos los públicos, pero de caracter formal, por lo que debemos evitar tipografías con excesivo detalle o que se dificulte su lectura. También, teniendo en cuenta que la aplicación va a ser ejecutada y \textit{leída} en dispositivos móviles, evitaremos el uso de tipografías estilo \textit{Serif}.
-                                    \item \textbf{Disponibilidad de caracteres}: La tipografía a utilizar debe poseer todas y cada una de las grafías necesarias para el idioma en el que se va a utilizar, y en este caso también debe soportar caracteres especiales \textit{ASCII}. Podemos complementar la tipografía utilizada con iconos especiales de \textit{Google Fonts} o de bibliotecas especiales de \textit{Bootstrap}.
+                                    \item \textbf{Disponibilidad de caracteres}: La tipografía a utilizar debe poseer todas y cada una de las grafías necesarias para el idioma en el que se va a utilizar, y en este caso también debe soportar caracteres especiales \textit{ASCII}. Podemos complementar la tipografía utilizada con iconos especiales de \textbf{Google Fonts} o de bibliotecas especiales de \textit{Bootstrap}.
                                 \end{enumerate}
                     
                             \paragraph*{Documento escrito o memoria del proyecto}
@@ -496,9 +496,9 @@
                                 \end{itemize}
 
                                 \paragraph*{Implementación de la aplicación}
-                                Para la implementación de la aplicación, hemos decidido ir a una tipografía especializada en interfaces web, sobria y de muy fácil lectura. Se trata de \textit{Nunito Sans}, una tipografía \textit{Sans Serif} que podemos encontrar en la biblioteca de \textit{Google Fonts}, por lo que nos aseguramos que con cualquier navegador moderno, será legible para todo tipo de usuarios.\\
+                                Para la implementación de la aplicación, hemos decidido ir a una tipografía especializada en interfaces web, sobria y de muy fácil lectura. Se trata de \textit{Nunito Sans}, una tipografía \textit{Sans Serif} que podemos encontrar en la biblioteca de \textbf{Google Fonts}, por lo que nos aseguramos que con cualquier navegador moderno, será legible para todo tipo de usuarios.\\
                         
-                                Las tipografías que se utilizan en la implementación web son de la familia \texttt{Nunito Sans} (de tamaño variable) y según su contexto, en modo normal o negrita:
+                                Las tipografías que se utilizan en la implementación web son de la familia \textit{Nunito Sans} (de tamaño variable) y según su contexto, en modo normal o negrita:
                                 \newpage
                                     \begin{itemize}
                                         \item \textbf{Nunito Sans}: Es trata una fuente tipo \textit{serif}, creada por \textit{Jacques Le Bailly} y cuenta con 14 estilos. Los estilos que utiliza esta tipografía son dos:
@@ -529,15 +529,15 @@
                                     \begin{center}
                                     \includegraphics[scale=0.18]{images/GuiTelefono.png}
                                     \end{center}
-                                    \caption{Propuesta de la GUI con dos esquemas de colores}
+                                    \caption{Propuesta de la \textit{GUI} con dos esquemas de colores}
                                 \end{figure}
                                 A modo de esquema, estas son algunas características que estarán disponibles en la versión final funcional (aunque estas características pueden variar de cara a la entrega final):
                         
                                 \begin{itemize}
                                     \item Botones triangulares para expandir las tarjetas de información, y así poder mostrar u ocultar información relevante.
                                     \item Al menos dos esquemas de colores diferenciados. Uno para el día y otro para la noche (o situaciones de baja iluminación). Para acceder a este ajuste, podremos pulsar una media luna en la parte superior derecha.
-                                    \item La app nos permitirá cambiar desde Ajustes algunos valores de la misma, así como desactivar servicios API para que no aparezcan en el \textit{dashboard} principal.
-                                    \item Si no existe información via API de un lugar, esa tarjeta no se mostrará.
+                                    \item La app nos permitirá cambiar desde Ajustes algunos valores de la misma, así como desactivar servicios \textbf{API} para que no aparezcan en el \textit{dashboard} principal.
+                                    \item Si no existe información via \textbf{API} de un lugar, esa tarjeta no se mostrará.
                                     \item Algunas de las tarjetas serán clickables y permitirán algún tipo de interacción con ellas.
                                 \end{itemize}
 
@@ -545,7 +545,7 @@
 
 
                                 \paragraph{Bosquejo de alta fidelidad}
-                                Con la finalidad de implementar un modelo de alta calidad, recurrimos a herraminetas profesionales (\textit{Justinmind}) para hacer un bosquejo de alta fidelidad. En este bosquejo, tenemos en cuenta las proporciones del layout a implementar, y en un iniciio, proponemos un sistema de información via tarjetas (como \textit{Google Discovery}). El bosquejo siguiente es el primero que realizamos de alta fidelidad:
+                                Con la finalidad de implementar un modelo de alta calidad, recurrimos a herraminetas profesionales (\textbf{Justinmind}) para hacer un bosquejo de alta fidelidad. En este bosquejo, tenemos en cuenta las proporciones del layout a implementar, y en un iniciio, proponemos un sistema de información via tarjetas (como \textbf{Google Discovery}). El bosquejo siguiente es el primero que realizamos de alta fidelidad:
 
                                 \begin{figure}[H]
                                     \begin{center}
@@ -613,13 +613,13 @@
 
                                 Despues de dos iteraciones de bosquejos, implementamos ya la herramienta real. Esta implementación utiliza \textbf{React} con la paleta de colores vista en el punto \texttt{4.5.1.4} y un diseño límpio y minimalista.\\
 
-                                En primer lugar, cuando iniciamos el servicio, se nos redirigirá a la página web por defecto: \texttt{localhost:8080}.\\
+                                En primer lugar, cuando iniciamos el servicio, nos redirigirá a la página web por defecto: \texttt{localhost:8080}.\\
 
 
                                 \begin{figure}[H]
                                     \begin{center}
-                                        \hspace*{-7mm}
-                                    \includegraphics[scale=0.342]{images/final1.png}
+                                        \hspace*{-5mm}
+                                    \includegraphics[scale=0.29]{images/final1.png}
                                     \end{center}
                                 \end{figure}
 
@@ -629,8 +629,8 @@
 
                                 \begin{figure}[H]
                                     \begin{center}
-                                        \hspace*{-7mm}
-                                    \includegraphics[scale=0.342]{images/final2.png}
+                                        \hspace*{-5mm}
+                                    \includegraphics[scale=0.29]{images/final2.png}
                                     \end{center}
                                 \end{figure}
 
@@ -640,8 +640,8 @@
 
                                 \begin{figure}[H]
                                     \begin{center}
-                                        \hspace*{-7mm}
-                                    \includegraphics[scale=0.342]{images/final3.png}
+                                        \hspace*{-5mm}
+                                    \includegraphics[scale=0.33]{images/final3.png}
                                     \end{center}
                                 \end{figure}
 
@@ -695,7 +695,7 @@
 
                                 En los últimos años, con el uso más frecuente de dispositivo móviles, es bastante más usual ver como la mayoría se sitios web, o bien cuentan con una versión movil, o estan pdogramados para que sean responsivos y por lo tanto se adapten de forma automática a estos layouts más reducidos. Cada día es más frecuente el uso de dispositivos móviles, por lo que una web que ofrezca responsividad de forma adecuada, es de crucial importancia en IT.\\
 
-                                A continuación, una comparativa de como se ve la página web en dos dispositivos móviles bastante diferentes, en un iPhone 13 Pro Max y un iPad Pro 12,9 de 2021. Pese a que la resolución del iPhone sea bastante elevada, el tamaño de la pantalla en comparación al del iPad Pro es bastante pequeña, por lo que los elementos en el navegador deben reordenarse (hacen uso de la responsividad) para que sean cómodos de leer por parte del usuario.
+                                A continuación, una comparativa de como se ve la página web en dos dispositivos móviles bastante diferentes, en un iPhone 13 Pro Max y un iPad Pro 12,9 de 2021. Pese a que la resolución del iPhone sea bastante elevada, el tamaño de la pantalla en comparación al del iPad Pro es bastante pequeña, por lo que los elementos en el navegador deben reordenarse (hacen uso de la responsividad) para que sean más cómodos de leer por parte del usuario.
 
                                 \newpage
 
