@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'sections/2-requisitosproyecto.blg'
+[53] biber-darwin:340> INFO - === Fri Jan  7, 2022, 19:47:35
+[66] Biber.pm:415> INFO - Reading 'sections/2-requisitosproyecto.bcf'
+[130] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[136] Utils.pm:395> WARN - The file 'sections/2-requisitosproyecto.bcf' does not contain any citations!
+[142] bbl.pm:654> INFO - Writing 'sections/2-requisitosproyecto.bbl' with encoding 'UTF-8'
+[143] bbl.pm:757> INFO - Output to sections/2-requisitosproyecto.bbl
+[143] Biber.pm:128> INFO - WARNINGS: 1

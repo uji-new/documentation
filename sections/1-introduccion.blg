@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'sections/1-introduccion.blg'
+[55] biber-darwin:340> INFO - === Fri Jan  7, 2022, 19:50:46
+[67] Biber.pm:415> INFO - Reading 'sections/1-introduccion.bcf'
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[137] Utils.pm:395> WARN - The file 'sections/1-introduccion.bcf' does not contain any citations!
+[144] bbl.pm:654> INFO - Writing 'sections/1-introduccion.bbl' with encoding 'UTF-8'
+[144] bbl.pm:757> INFO - Output to sections/1-introduccion.bbl
+[144] Biber.pm:128> INFO - WARNINGS: 1

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.24)  7 JAN 2022 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.24)  7 JAN 2022 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1259,27 +1259,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 80.
  [2.2]
-<images/googledrive.png, id=438, 1429.34pt x 971.63pt>
+<images/googledrive.png, id=438, 1429.34pt x 967.615pt>
 File: images/googledrive.png Graphic file (type png)
 <use images/googledrive.png>
 Package pdftex.def Info: images/googledrive.png  used on input line 95.
-(pdftex.def)             Requested size: 214.39174pt x 145.7382pt.
-<images/githubdessign.png, id=440, 3011.25pt x 1080.035pt>
+(pdftex.def)             Requested size: 228.69907pt x 154.82156pt.
+<images/githubdessign.png, id=440, 2376.88pt x 1059.96pt>
 File: images/githubdessign.png Graphic file (type png)
 <use images/githubdessign.png>
 Package pdftex.def Info: images/githubdessign.png  used on input line 105.
-(pdftex.def)             Requested size: 451.66801pt x 161.99826pt.
-
-Overfull \hbox (3.59424pt too wide) in paragraph at lines 105--106
- [] 
- []
-
+(pdftex.def)             Requested size: 380.30858pt x 169.59706pt.
 <doclicense-CC-by-nc-nd-88x31.pdf, id=443, 90.3375pt x 31.61812pt>
 File: doclicense-CC-by-nc-nd-88x31.pdf Graphic file (type pdf)
 <use doclicense-CC-by-nc-nd-88x31.pdf>
 Package pdftex.def Info: doclicense-CC-by-nc-nd-88x31.pdf  used on input line 121.
 (pdftex.def)             Requested size: 108.87878pt x 38.10797pt.
-[3.3 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/googledrive.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/githubdessign.png> </usr/local/texlive/2021/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-nd-88x31.pdf>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.toc
+ [3.3 </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/googledrive.png> </Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/images/githubdessign.png> </usr/local/texlive/2021/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-nd-88x31.pdf>] (/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -3392,7 +3387,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.pdf" (167 pages, 33010672 bytes).
+Output written on "/Users/ernestmarza/Documents/Universidad/Ingeniería informática/Asignaturas/EI1039 - Diseño de software/Proyecto EI1039-48/Repositorios de GitHub/documentation/ei103948-project-documentation.pdf" (167 pages, 32994036 bytes).
 PDF statistics:
  5256 PDF objects out of 6186 (max. 8388607)
  4923 compressed objects within 50 object streams
