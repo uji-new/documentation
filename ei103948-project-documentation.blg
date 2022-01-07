@@ -1,0 +1,18 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'ei103948-project-documentation.blg'
+[55] biber-darwin:340> INFO - === Fri Jan  7, 2022, 17:29:17
+[67] Biber.pm:415> INFO - Reading 'ei103948-project-documentation.bcf'
+[135] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[148] Biber.pm:4340> INFO - Processing section 0
+[157] Biber.pm:4531> INFO - Looking for bibtex format file 'referencias.bib' for section 0
+[158] bibtex.pm:1689> INFO - LaTeX decoding ...
+[164] bibtex.pm:1494> INFO - Found BibTeX data source 'referencias.bib'
+[186] Utils.pm:395> WARN - legacy month field 'Septiembre' in entry 'granell-estilosarquitectura' is not an integer - this will probably not sort properly.
+[187] Utils.pm:395> WARN - legacy month field 'Noviembre' in entry 'mockito2' is not an integer - this will probably not sort properly.
+[191] Utils.pm:395> WARN - legacy month field 'Agosto' in entry 'api-xataka' is not an integer - this will probably not sort properly.
+[199] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[199] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[199] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[205] bbl.pm:654> INFO - Writing 'ei103948-project-documentation.bbl' with encoding 'UTF-8'
+[207] bbl.pm:757> INFO - Output to ei103948-project-documentation.bbl
+[207] Biber.pm:128> INFO - WARNINGS: 3

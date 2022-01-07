@@ -1,0 +1,1779 @@
+\documentclass[../ei103948-project-documentation.tex]{subfiles}
+\begin{document}
+
+\section{Requisitos del proyecto}
+	Partiendo de una serie de items necesarios para llevar a cabo el proyecto de forma satisfactoria, a continuación se expondrán un conjunto de escenarios y pruebas de aceptación para cada uno de los requisitos que se plantean en la hoja de ruta de este proyecto.\\
+
+	En primer lugar, ahondaremos en los requisitos imprescindibles para llevar a cabo el proyecto en su forma básica. Para finalizar, hemos añadido una serie de requisitos adicionales (avanzados) que nuestro proyecto también va a tener en cuenta.\\
+
+	De forma adicional también se muestran para cada una de las historias y subhustorias de usuario una serie de tests de integración y aceptación
+
+
+		\subsection{Requisitos básicos}
+			\subsubsection{Requisito básico 1 - Gestionar una ubicación de interés}
+				El primer requisito básico consta de gestionar una ubicación de interés sobre la que se desea consultar información. En esencia de ello depende el fundamento básico de este aplicativo web.
+
+				\paragraph{Requisito básico 1, Historia de usuario 1}
+					Como usuario quiero dar de alta una ubicación a partir de un topónimo, con el fin de tenerla disponible en el sistema.
+
+					\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.13\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones previas} & \textbf{Topónimo válido} & \textbf{Ubicación repetida} & \textbf{Ubicaciones después} & \textbf{BBDD modificada} \\ \hline
+						E1                 & 0                        & Si                       & No                      & 1                        & Si                       \\ \hline
+						E2                 & 0                        & No                       & No                      & 0                        & No                       \\ \hline
+						E3                 & 1                        & Si                       & Si                      & 1                        & No                       \\ \hline
+						E4                 & 1                        & No                       & Si                      & 1                        & No                       \\ \hline
+						\end{tabular}
+						\caption{Escenarios Requisito básico 1, Historia de Usuario 1}
+					\end{table}
+
+					\descripcionBasicaA
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                & \textbf{E2 (inválido)}     \\ \hline
+						\textbf{Given} 
+						& \begin{itemize}
+							\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item No hay ubicaciones disponibles
+							\item Un usuario registrado
+							\item Un topónimo 'Castellon'
+						\end{itemize}
+						      & \begin{itemize}
+								\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								  \item No hay ubicaciones registradas
+								  \item Un usuario registrado
+								  \item Un topónimo 'INVALIDO'
+							  \end{itemize}  
+							  \\ \hline
+						\textbf{When}  & Añadir una ubicación 'Castellón'                  & Añadir una ubicación 'INVALIDO'       \\ \hline
+						\textbf{Then}  & Hay una ubicación registrada 'Castellon' & No hay ubicaciones registradas \\ \hline
+						\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 1}
+					\end{table}
+					\end{center}
+
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoA
+
+					\newpage
+
+				\paragraph{Requisito básico 1, Historia de usuario 2}
+					Como usuario quiero dar de alta una ubicación a partir de unas coordenadas geográficas, con el fin de tenerla disponible en el sistema.
+
+					\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones previas} & \textbf{Coord. válidas} & \textbf{Ubicación repetida} & \textbf{Ubicaciones después} & \textbf{BBDD modificada} \\ \hline
+						E1                 & 0                        & Si                       & No                      & 1                        & Si                       \\ \hline
+						E2                 & 0                        & No                       & No                      & 0                        & No                       \\ \hline
+						E3                 & 1                        & Si                       & Si                      & 1                        & No                       \\ \hline
+						E4                 & 1                        & No                       & Si                      & 1                        & No                       \\ \hline
+						\end{tabular}
+						\caption{Escenarios Requisito básico 1, Historia de Usuario 2}
+					\end{table}
+
+					\descripcionBasicaB
+
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                & \textbf{E2 (inválido)}     \\ \hline
+						\textbf{Given} & \begin{itemize}
+							\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item No hay ubicaciones registradas
+							\item Unas coordenadas '39,0'
+						\end{itemize} & \begin{itemize}
+							\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item No hay ubicaciones registradas
+							\item Unas coordenadas '180,360'
+						\end{itemize} \\ \hline
+						\textbf{When}  & Añadir unas coordenadas '39,0'                	     & Añadir unas coordenadas '180,360'            \\ \hline
+						\textbf{Then}  & Hay una ubicación registrada con las coordenadas '39,0' 			 & No hay ubicaciones registradas \\ \hline
+						\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 2}
+					\end{table}
+				\end{center}
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoB
+
+				\vspace*{5mm}
+
+				\paragraph{Requisito básico 1, Historia de usuario 3}
+					Como usuario quiero validar el topónimo de una ubicación disponible en los servicios API activos, con el fin de evaluar su utilidad.
+
+				\begin{center}
+				\textbf{\underline{Escenarios}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.16\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones activas} & \textbf{Topónimo válido} & \textbf{Servicio disponible} & \textbf{Resultado} \\ \hline
+						E1       & 1                        & Si                       & Si                           & Si                 \\ \hline
+						E2        & 0                        & Si                       & No                           & No                 \\ \hline
+						E3        & 0                        & No                       & Si                           & No                 \\ \hline
+						E4                 & 0                        & No                       & No                           & No                 \\ \hline
+						\end{tabular}
+					\caption{Escenarios Requisito básico 1, Historia de Usuario 3}
+				\end{table}
+
+				\descripcionBasicaC
+
+				\textbf{\underline{Pruebas de aceptación}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+					\hline
+					\textbf{}      & \textbf{E1 (válido)}                                                             & \textbf{E3 (inválido)}                                                  \\ \hline
+					\textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+						\item Un usuario registrado
+						\item La ubic. 'Castellón' activa
+						\item El servicio del clima
+						\item El topónimo 'Valencia'
+					\end{itemize}
+					& \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+						\item Un usuario registrado
+						\item Ninguna ubicación activa
+						\item El topónimo 'INVALIDO'
+					\end{itemize}\\ \hline
+					\textbf{When}  & Se realiza una petición a la API para el topónimo 'Valencia'                     & Se realiza una petición a la API para ese topónimo                      \\ \hline
+					\textbf{Then}  & La API devuelve información del clima para Valencia                                                     & La API devuelve un error                                                \\ \hline
+					\end{tabular}
+					\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 3}
+				\end{table}
+				\end{center}
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoC
+
+				\newpage
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 4}
+				Como usuario quiero validar las coordenadas geográficas de una ubicación disponible en los servicios API activos, con el fin de evaluar su utilidad.
+
+				\begin{center}
+				\textbf{\underline{Escenarios}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.12\linewidth}|p{0.20\linewidth}|p{0.18\linewidth}|p{0.23\linewidth}|p{0.12\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones activas} & \textbf{Coordenadas válidas} & \textbf{Servicio disponible} & \textbf{Resultado} \\ \hline
+						\textbf{E1}        & 1                        & Si                           & Si                           & Si                 \\ \hline
+						\textbf{E2}        & 0                        & Si                           & No                           & No                 \\ \hline
+						\textbf{E3}        & 0                        & No                           & Si                           & No                 \\ \hline
+						E4                 & 0                        & No                           & No                           & No                 \\ \hline
+						\end{tabular}
+					\caption{Escenarios Requisito básico 1, Historia de Usuario 4}
+				\end{table}
+
+				\descripcionBasicaD
+
+
+				\textbf{\underline{Pruebas de aceptación}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                                   & \textbf{E3 (inválido)}                                      \\ \hline
+						\textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Las coordenadas '39,0'
+							\item EL servicio del clima
+							\item Un usuario registrado
+							\item La ubicación 'Valencia' activa
+						\end{itemize} & 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Las coordenadas '180,360'
+							\item El servicio del clima
+							\item Un usuario registrado
+						\end{itemize} \\ \hline
+						\textbf{When}  & Se realiza una petición a la API para esas coordenadas & Se realiza una petición a la API para para esas coordenadas \\ \hline
+						\textbf{Then}  & La API devuelve información del clima para las coordenadas '39,0'                            & La API devuelve un error                                    \\ \hline
+						\end{tabular}
+					\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 4}
+				\end{table}
+				\end{center}
+
+				\newpage
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoD
+
+
+				\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 5}
+				Como usuario quiero activar una ubicación disponible en el sistema, con el fin de recibir información relacionada con dicha ubicación
+
+				\begin{center}
+				\textbf{\underline{Escenarios}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones activas previas} & \textbf{Ubicaciones desactivadas previas} & \textbf{Ubicaciones activas después} & \textbf{Ubicaciones desactivadas después} & \textbf{BBDD modificada} \\ \hline
+						E1                 & 0                                & 1                                     & 1                                & 0                                     & Si                       \\ \hline
+						E2                 & 1                                & 0                                     & 1                                & 0                                     & No                       \\ \hline
+						\end{tabular}
+					\caption{Escenarios Requisito básico 1, Historia de Usuario 5}
+				\end{table}
+
+				\descripcionBasicaE
+
+
+				\textbf{\underline{Pruebas de aceptación}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                                                             & \textbf{E2 (inválido)}                                                           \\ \hline
+						\textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item Ninguna ubicación activa
+							\item Una ubicación desactivada en el sistema 'Castellón'
+						\end{itemize}& 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item Una ubicación activada en el sistema 'Castellón'
+							\item Ninguna ubica. desactivada
+						\end{itemize} \\ \hline
+						\textbf{When}  & Se realiza la petición sobre 'Castellón'                                         & Se realiza la petición sobre 'Castellón'                                         \\ \hline
+						\textbf{Then}  & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Una ubicación activada en el sistema 'Castellón'
+							\item Ninguna ubic. desactivada
+						\end{itemize} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Una ubicación activada en el sistema 'Castellón'
+							\item Ninguna ubica. desactivada
+						\end{itemize} \\ \hline
+						\end{tabular}
+					\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 5}
+				\end{table}
+				\end{center}
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoE
+
+				\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 6}
+				Como usuario quiero obtener las coordenadas geográficas de una ubicación a partir de su topónimo, con el fin de facilitar la obtención de información en múltiples fuentes públicas (API).
+
+					\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.22\linewidth}|p{0.26\linewidth}|p{0.22\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Topónimo válido} & \textbf{Servicio disponible} & \textbf{Coordenadas} \\ \hline
+							E1                 & Si                       & Si                           & Si                   \\ \hline
+							E2                 & No                       & Si                           & No                   \\ \hline
+							E3                 & Si                       & No                           & No                   \\ \hline
+							E4                 & No                       & No                           & No                   \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 1, Historia de Usuario 6}
+					\end{table}
+
+					\descripcionBasicaF
+
+					\newpage
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                      & \textbf{E2 (inválido)}                                  \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item API de geocoding disponible
+								\item El topónimo 'Castellón'
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item API de geocoding disponible
+								\item El topónimo 'INVALIDO'
+							\end{itemize}\\ \hline
+							\textbf{When}  & Se intenta transformar ese topónimo en unas coordenadas   & Se intenta transformar ese topónimo en unas coordenadas \\ \hline
+							\textbf{Then}  & Devuelve '39,0'                                           & No devuelve coordenadas                                 \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 6}
+					\end{table}
+					\end{center}
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoF
+
+					\newpage
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 7}
+				Como usuario quiero obtener el topónimo más próximo a las coordenadas geográficas de una ubicación, con el fin de facilitar la obtención de información en múltiples fuentes públicas (API).
+
+				\begin{center}
+				\textbf{\underline{Escenarios}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Coordenadas válidas} & \textbf{Topónimo disponible} & \textbf{Servicio disponible} & \textbf{Topónimo más próximo} \\ \hline
+						E1                 & Si                           & Si                           & Si                           & Si                            \\ \hline
+						E2                 & Si                           & Si                           & No                           & No                            \\ \hline
+						E3                 & SI                           & No                           & Si                           & No                            \\ \hline
+						E4                 & Si                           & No                           & No                           & No                            \\ \hline
+						E5                 & No                           & No                           & No                           & No                            \\ \hline
+						\end{tabular}
+					\caption{Escenarios Requisito básico 1, Historia de Usuario 7}
+				\end{table}
+
+
+				\descripcionBasicaG
+
+				\textbf{\underline{Pruebas de aceptación}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                                     & \textbf{E3 (inválido)}                                     \\ \hline
+						\textbf{Given} & 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item API geocoding disponible
+							\item Las coordenadad '39,0'
+						\end{itemize} & 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item API geocoding disponible
+							\item Las coordenadas '31,-44'
+						\end{itemize} \\ \hline
+						\textbf{When}  & Se realiza una petición a la API para esas coordenadas   & Se realiza una petición a la API para esas coordenadas     \\ \hline
+						\textbf{Then}  & Devuelve 'Playa de olivia'                               & No devuelve una ubicación                                       \\ \hline
+						\end{tabular}
+					\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 7}
+				\end{table}
+				\end{center}
+
+				\newpage
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoG
+
+				\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 8}
+					Como usuario quiero asignar un alias a una ubicación, con el fin de personalizar el uso del sistema.
+
+					\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.22\linewidth}|p{0.16\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Ubicaciones previas} & \textbf{Alias proporcionado} & \textbf{Alias resultante} & \textbf{BBDD modificada} \\ \hline
+							E1                 & 1                        & Si                           & Alias                     & Si                       \\ \hline
+							E2                 & 1                        & No                           & Topónimo                  & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 1, Historia de Usuario 8}
+					\end{table}
+
+					\descripcionBasicaH
+
+					\newpage
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                               & \textbf{E2 (inválido)}                                                                    \\ \hline
+							\textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Una ubicación guardado: 
+								\item[] 'Castellón'
+							\end{itemize}  & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Una ubicación guardada:
+								\item[] 'Castellón'
+							\end{itemize}                                      \\ \hline
+							\textbf{When}  & Cuando actualizas el alias a 'CS'                  & No actualizas el alias                                                                    \\ \hline
+							\textbf{Then}  & Alias ahora es 'CS'                                & Alias sigue siendo igual que el por defecto, que es el topónimo, en este caso 'Castellon' \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 8}
+					\end{table}
+					\end{center}
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoH
+
+					
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 9}
+				Como usuario quiero desactivar una ubicación activa, con el fin de reducir temporalmente la cantidad de información a consultar.
+
+				\begin{center}
+				\textbf{\underline{Escenarios}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+						\hline
+						\textbf{Escenario} & \textbf{Ubicaciones activas previas} & \textbf{Ubicaciones desactivadas previas} & \textbf{Ubicaciones activas después} & \textbf{Ubicaciones desactivadas después} & \textbf{BBDD modificada} \\ \hline
+						E1                 & 1                                & 0                                     & 0                                & 1                                     & Si                       \\ \hline
+						E2                 & 0                                & 1                                     & 0                                & 1                                     & No                       \\ \hline
+						\end{tabular}
+					\caption{Escenarios Requisito básico 1, Historia de Usuario 9}
+				\end{table}
+
+				\descripcionBasicaI
+
+				\textbf{\underline{Pruebas de aceptación}}
+				\begin{table}[H]
+					\centering
+					\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+						\hline
+						\textbf{}      & \textbf{E1 (válido)}                                                             & \textbf{E2 (inválido)}                                                           \\ \hline
+						\textbf{Given} &
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item Una ubicación activa en el sistema 'Castellón'
+							\item Nunguna ubic. desactivada
+						\end{itemize} & 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Un usuario registrado
+							\item Ninguna ubic. activada
+							\item Una ubic. desactivada en el sistema 'Castellón'
+						\end{itemize} \\ \hline
+						\textbf{When}  & Se realiza la petición  de desactivación sobre 'Castellón'                       & Se realiza la petición de desactivación sobre 'Castellón'                        \\ \hline
+						\textbf{Then}  & 
+						\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Ninguna ubic. activada
+							\item Una ubic. desactivada en el sistema 'Castellón'
+						\end{itemize} &\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							\item Ninguna ubic. activada
+							\item Una ubic. desactivada en el sistema 'Castellón'
+						\end{itemize} \\ \hline
+						\end{tabular}
+					\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 9}
+				\end{table}
+				\end{center}
+
+				\newpage
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testBasicoI
+
+				\newpage
+
+
+				\paragraph{Requisito básico 1, Historia de usuario 10}
+				Como usuario quiero dar de baja una ubicación disponible, con el fin de eliminar información que ya no resulta de interés.
+
+					\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.15\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Ubicaciones previas} & \textbf{Ubicación registrada} & \textbf{Ubicaciones después} & \textbf{BBDD modificada} \\ \hline
+							E1                 & 1                        & Si                        & 0                        & Si                       \\ \hline
+							E2                 & 1                        & No                        & 1                        & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 1, Historia de Usuario 10}
+					\end{table}
+
+					\descripcionBasicaJ
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                     & \textbf{E2 (inválido)}                                   \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Una ubicación desact. 'Castellón'
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Una ubicación desact. 'Castellón'
+							\end{itemize}\\ \hline
+							\textbf{When}  & Intenta dar de baja 'Castellon'                          & Intenta dar de baja 'Valencia'                           \\ \hline
+							\textbf{Then}  & No hay ubicaciones desactivadas                              & Una ubicación desactivada 'Castellon'                         \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 1, Historia de Usuario 10}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+
+
+					\testBasicoJ
+
+
+					\newpage
+
+			\subsubsection{Requisito básico 2 - Gestionar hasta tres ubicaciones de interés}
+				El segundo requisito básico consta de gestionar hasta tres ubicaciones de interés sobre el que se desea consultar información.
+
+				\paragraph{Requisito básico 2, Historia de usuario 1}
+				Como usuario quiero consultar información de hasta tres ubicaciones simultáneamente, con el fin de estar al corriente de novedades en todas ellas.\\
+				\textit{Esta historia está dividida en subhistorias}.
+
+					\paragraph*{Requisito básico 2, Historia de usuario 1, Subhistoria 1}
+					Como usuario quiero consultar información de hasta tres ubicaciones simultáneamente, con el fin de saber todos sus datos a la vez.
+
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Resultado} \\ \hline
+								E1                 & 0                                & No                 \\ \hline
+								E2                 & 2                                & Si                 \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 2, Historia de Usuario 1, Subhistoria 1}
+						\end{table}
+
+						\descripcionBasicaK
+
+						\newpage
+	
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido)}                                                                 & \textbf{E2 (inválido)}                                                \\ \hline
+								\textbf{Given} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Tiene dos ubicaciones guardadas: ('Castellón', 'Alicante')
+								\end{itemize} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item No tiene ninguna ubicación activa
+								\end{itemize}             \\ \hline
+								\textbf{When}  & Cuando solicita a la API la información sobre sus ubicaciones guardadas              & Cuando solicita a la API la información sobre sus ubicaciones activas \\ \hline
+								\textbf{Then}  & La API deberá devolver 2 paquetes de información, uno por cada ubicación guardada & La API devolverá un paquete vacío                                     \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 1, Subhistoria 1}
+						\end{table}
+						\end{center}
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoK
+
+					\newpage
+
+					\paragraph*{Requisito básico 2, Historia de usuario 1, Subhistoria 2}
+					Como usuario quiero consultar información de hasta tres servicios de una ubicación simultáneamente, con el fin de estar al corriente de novedades en todas ellas.
+	
+						\begin{center}
+							\textbf{\underline{Escenarios}}
+							\begin{table}[H]
+								\centering
+								\begin{tabular}{|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|p{0.18\linewidth}|}
+									\hline
+									\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de servicios} & \textbf{Resultado} \\ \hline
+									\textbf{E1}        & 1                                & 0                              & No                 \\ \hline
+									\textbf{E2}        & 1                                & 2                              & Si                 \\ \hline
+									\textbf{E3}        & 0                                & 0                              & No                 \\ \hline
+									\end{tabular}
+								\caption{Escenarios Requisito básico 2, Historia de Usuario 1, Subhistoria 2}
+							\end{table}
+
+							\descripcionBasicaL
+		
+							\textbf{\underline{Pruebas de aceptación}}
+							\begin{table}[H]
+								\centering
+								\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+									\hline
+									\textbf{}      & \textbf{E2 (válido)}                                                                                   & \textbf{E3 (inválido)}                                                                      \\ \hline
+									\textbf{Given} &
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+										\item Un usuario registrado
+										\item Una ubicación activa 'Castellón'
+										\item Tiene dos servicios activos ('Clima', 'Eventos')
+									\end{itemize} & 
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+										\item Un usuario registrado.
+										\item No tiene ninguna ubicación activa.
+										\item No tiene ningún servicio activo.
+									\end{itemize} \\ \hline
+									\textbf{When}  & Cuando solicita a la API la información sobre sus servicios                                            & Cuando solicita a la API la información sobre sus servicios                                 \\ \hline
+									\textbf{Then}  & La API deberá devolver 2 paquetes de información, uno por cada servicio activo                      & La API devolverá un paquete vacío                                                           \\ \hline
+									\end{tabular}
+								\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 1, Subhistoria 2}
+							\end{table}
+							\end{center}
+
+							\newpage
+
+							\begin{center}
+								\textbf{\underline{Tests de integración y aceptación}}
+							\end{center}
+		
+							\testBasicoL
+
+							\vspace*{5mm}
+
+				\paragraph{Requisito básico 2, Historia de usuario 2}
+					Como usuario quiero poder elegir servicios de información (API) independientes para cada ubicación, con el doble fin de consultar sólo información de interés y contribuir a la gestión eficiente de recursos.\\
+								\textit{Esta historia está dividida en subhistorias}.
+
+					\newpage
+			
+					\paragraph*{Requisito básico 2, Historia de usuario 2, Subhistoria 1}
+				Como usuario quiero poder activar servicios de información (API) independientes para cada ubicación, con el doble fin de consultar sólo información de interés y contribuir a la gestión eficiente de recursos.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.11\linewidth}|p{0.13\linewidth}|p{0.13\linewidth}|p{0.09\linewidth}|p{0.11\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Servicios disponibles} & \textbf{Servicio activo} & \textbf{Servicio pedido válido} & \textbf{Servicio activo después} & \textbf{BBDD modificada} \\ \hline
+							\textbf{E1}        & 1                                & 1                              & No                       & Si                              & Si                               & Si                       \\ \hline
+							\textbf{E2}        & 1                                & 1                              & Si                       & Si                              & Si                               & No                       \\ \hline
+							\textbf{E3}        & 1                                & 1                              & No                       & No                              & No                               & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 2, Historia de Usuario 2, Subhistoria 1}
+					\end{table}
+
+					\descripcionBasicaM
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                                  & \textbf{E3 (inválido)}                                                                                                   \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Una ubicación guardada $\rightarrow$ 'Castellón'
+								\item Un servicio disponible 'Clima'
+								\item La ubicación no tiene servicios
+							\end{itemize} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuarior registrado
+								\item Una ubicación guardada $\rightarrow$ 'Castellón'
+								\item Un servicio disponible 'Clima'
+								\item La ubicación no tiene servicios
+							\end{itemize} \\ \hline
+							\textbf{When}  & El usuario activa el servicio 'Clima' en 'Castellón'                                                                  & El usuario activa el servicio 'INVALIDO' en 'Castellón'                                                                  \\ \hline
+							\textbf{Then}  & 'Castellón' tiene el servicio 'Clima' activo                                                                          & 'Castellón' no tiene servicios activos                                                                                   \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 2, Subhistoria 1}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoM
+
+					\newpage
+
+
+
+					\paragraph*{Requisito básico 2, Historia de usuario 2, Subhistoria 2}
+					Como usuario quiero poder desactivar servicios de información (API) independientes para cada ubicación, con el doble fin de consultar sólo información de interés y contribuir a la gestión eficiente de recursos.
+
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+						\begin{tabular}{|p{0.11\linewidth}|p{0.13\linewidth}|p{0.13\linewidth}|p{0.09\linewidth}|p{0.11\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+								\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Servicios disponibles} & \textbf{Servicio activo} & \textbf{Servicio pedido  válido} & \textbf{Servicio activo después} & \textbf{BBDD modificada} \\ \hline
+								\textbf{E1}        & 1                                & 1                              & No                       & Si                               & No                               & No                       \\ \hline
+								\textbf{E2}        & 1                                & 1                              & Si                       & Si                               & No                               & Si                       \\ \hline
+								\textbf{E3}        & 1                                & 1                              & Si                       & No                               & Si                               & No                       \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 2, Historia de Usuario 2, Subhistoria 2}
+						\end{table}
+
+						\descripcionBasicaN
+	
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.15\linewidth}|p{0.37\linewidth}|p{0.37\linewidth}|}
+								\hline
+								& \textbf{E2 (válido)}                                    & \textbf{E3 (inválido)}                                     \\ \hline
+				 \textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+					 \item Un usuario registrado
+					 \item Una ubicación guardada 'Castellón'
+					 \item Un servicio disponible 'Clima'
+					 \item 'Castellón tiene el servicio 'Clima' activo
+				 \end{itemize}                                             & 
+				 \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+					 \item Un usuario registrado
+					 \item Una ubicación guardada 'Castellón'
+					 \item Un servicio disponible 'Clima'
+					 \item 'Castellón' tiene el servicio 'Clima' activo
+				 \end{itemize}                                                   \\ \hline
+				 \textbf{When}  & El usuario desactiva el servicio 'Clima' en 'Castellón' & El usuario desactiva el servicio 'INVALIDO' en 'Castellón' \\ \hline
+				 \textbf{Then}  & 'Castellón' no tiene servicios activos                  & 'Castellón' tiene el servicio 'Clima' activo               \\ \hline
+				 \end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 2, Subhistoria 2}
+						\end{table}
+						\end{center}
+
+						\newpage
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoN
+						\newpage
+
+				\paragraph{Requisito básico 2, Historia de usuario 3}
+				Como usuario quiero consultar fácilmente la lista de ubicaciones activas.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Resultado} \\ \hline
+							\textbf{E1}        & 2                                & 1                                        & Si                 \\ \hline
+							\textbf{E2}        & 2                                & 0                                        & No                 \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 2, Historia de Usuario 3}
+					\end{table}
+
+					\descripcionBasicaO
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                                          & \textbf{E2 (inválido)}                                                                                                \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Tiene dos ubicaciones guardadas: 'Castellón' y 'Valencia'
+								\item De ellas una está activada 'Castellón'
+							\end{itemize} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Tiene dos ubicaciones guardadas: 'Castellón' y 'Valencia'
+								\item De ellas no hay ninguna activada
+							\end{itemize} \\ \hline
+							\textbf{When}  & Cuando solicita a la API la información sobre sus ubicaciones activas                                                         & Cuando solicita a la API la información sobre sus ubicaciones activas                                                 \\ \hline
+							\textbf{Then}  & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item La API deberá devolver un paquete de información por cada ubicación activa
+								\item En este caso: 'Castellón'
+							\end{itemize}& La API devolverá un paquete vacío                                                                                     \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 3}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoO
+
+					\vspace*{5mm}
+
+				\paragraph{Requisito básico 2, Historia de usuario 4}
+					Como usuario quiero consultar fácilmente la información de cualquiera de las ubicaciones activas por separado.\\
+					\textit{Esta historia está dividida en subhistorias}.
+
+					\paragraph*{Requisito básico 2, Historia de usuario 4, Subhistoria 1}
+					Como usuario quiero consultar fácilmente la información de cualquiera de las ubicaciones activas por separado.
+						\begin{center}
+							\textbf{\underline{Escenarios}}
+							\begin{table}[H]
+								\centering
+								\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+									\hline
+									\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Resultado} \\ \hline
+									\textbf{E1}        & 2                                & 2                                        & Si                 \\ \hline
+									\textbf{E2}        & 2                                & 0                                        & No                 \\ \hline
+									\end{tabular}
+								\caption{Escenarios Requisito básico 2, Historia de Usuario 4, Subhistoria 1}
+							\end{table}
+
+							\newpage
+
+							\descripcionBasicaP
+
+							\textbf{\underline{Pruebas de aceptación}}
+							\begin{table}[H]
+								\centering
+								\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+									\hline
+									\textbf{}      & \textbf{E1(válido)}                                                                                                                             & \textbf{E1 (inválido)}                                                                                                         \\ \hline
+									\textbf{Given} &
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm} 
+										\item Un usuario registrado
+										\item Tiene dos ubicaciones guardadas ('Castellón' y 'Valencia')
+										\item De ellas todas están activadas
+										\item('Castellón' y 'Valencia')
+									\end{itemize}& 
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+										\item Un usuario registrado
+										\item No tiene ninguna ubicación guardada
+										\item ('Castellano' y 'Valencia')
+										\item Ninguna de ellas está activada
+									\end{itemize}\\ \hline
+									\textbf{When}  & Cuando solicita a la API la información sobre 'Castellón'                                                                                       & Cuando solicita a la API la información sobre 'Castellón'                                                                      \\ \hline
+									\textbf{Then}  & La API deberá devolver información sobre 'Castellón'                                                                                            & La API no devolverá información                                                                                                \\ \hline
+									\end{tabular}
+								\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 4, Subhistoria 1}
+							\end{table}
+							\end{center}
+
+							\begin{center}
+								\textbf{\underline{Tests de integración y aceptación}}
+							\end{center}
+		
+							\testBasicoP
+				
+							\vspace*{5mm}
+
+					\paragraph*{Requisito básico 2, Historia de usuario 4, Subhistoria 2}
+					Como usuario quiero consultar fácilmente la información del \underline{clima} sobre un una ubicación activa.\\
+
+					Debido a que la historia original pide como requisitos que la acción se realiza sobre una ubicación activa (por lo tanto también registrada y válida) y que el servicio del clima puede responder ante cualquier coordenada sintácticamente válida (garantizado por el hecho de estar activa) es imposible crear un caso invalido.
+
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Cantidad de servicios activos} & \textbf{Ubicación reconocida por servicio} & \textbf{Resultado} \\ \hline
+								\textbf{E1}        & 2                                & 2                                        & 1                                      & Si                                         & Si                 \\ \hline
+								\textbf{E2}        & 2                                & 1                                        & 1                                      & Si                                         & Si                 \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 2, Historia de Usuario 4, Subhistoria 2}
+						\end{table}
+
+						\newpage
+
+						\descripcionBasicaQ
+
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido 1)}                                                                                                                                           & \textbf{E2 (válido 2)}                                                                                                                                           \\ \hline
+								\textbf{Given} &
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm} 
+										\item Un usuario registrado
+										\item Tiene dos ubicaciones guardadas ('Castellón' y 'Valencia')
+										\item De ellas todas están activadas
+										\item API dispone de un servicio ('Clima')
+									\end{itemize}& 
+									\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+										\item Un usuario registrado
+										\item No tiene ninguna ubicación guardada
+										\item ('Antartica' y 'Valencia')
+										\item La ubicación de 'Antártica' esté activa
+										\item API dispone de un servicio ('Clima')
+									\end{itemize}\\ \hline
+								\textbf{When}  & Cuando solicita a la API la información sobre los servicios de la ubicación 'Antártica'                                                                        & Cuando solicita a la API la información sobre los servicios de la ubicación 'Castellón'                                                                          \\ \hline
+								\textbf{Then}  & La API deberá devolviera información del clima de 'Antática'                                                                                                  & La API devolverá un paquete vacío                                                                                                                                \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 4, Subhistoria 2}
+						\end{table}
+						\end{center}
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoQ
+
+						\vspace*{5mm}
+
+					\paragraph*{Requisito básico 2, Historia de usuario 4, Subhistoria 3}
+					Como usuario quiero consultar fácilmente la información de los \underline{eventos} sobre un una ubicación activa
+
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.12\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Cantidad de servicios activos} & \textbf{Ubicación reconocida por servicio} & \textbf{Resultado} \\ \hline
+								\textbf{E1}        & 2                                & 2                                        & 1                                      & Si                                         & Si                 \\ \hline
+								\textbf{E2}        & 2                                & 0                                        & 1                                      & No                                         & No                 \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 2, Historia de Usuario 4, Subhistoria 3}
+						\end{table}
+
+						\descripcionBasicaR
+
+						\newpage
+
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido)}                                                                                                                                            & \textbf{E2 (inválido)}                                                                                                                                             \\ \hline
+								\textbf{Given} &
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm} 
+									\item Un usuario registrado
+									\item Tiene tres ubicaciones guardadas ('Castellón' y 'Valencia')
+									\item De ellas todas están activadas
+									\item API dispone de un servicio ('Eventos')
+								\end{itemize}& 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Tiene tres ubicaciones guardadas ('Antartica' y 'Valencia')
+									\item La ubicación 'Antártica' está activa
+									\item API dispone de un servicio ('Eventos')
+								\end{itemize}\\ \hline
+								\textbf{When}  & Cuando solicita a la API la información sobre los servicios de la ubicación 'Castellón'                                                                         & Cuando solicita a la API la información sobre los servicios de la ubicación 'Antártica'                                                                            \\ \hline
+								\textbf{Then}  & La API deberá devolviera información de los eventos de 'Castellón'                                                                                              & La API devolverá un paquete vacío                                                                                                                                  \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 4, Subhistoria 3}
+						\end{table}
+						\end{center}
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoR
+
+						\newpage
+
+
+					\paragraph*{Requisito básico 2, Historia de usuario 4, Subhistoria 4}
+					Como usuario quiero consultar fácilmente la información de las \underline{noticias} sobre un una ubicación activa
+
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.14\linewidth}|p{0.16\linewidth}|p{0.16\linewidth}|p{0.14\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Cantidad de servicios activos} & \textbf{Ubicación reconocida por servicio} & \textbf{Resultado} \\ \hline
+								\textbf{E1}        & 2                                & \textbf{2}                               & \textbf{1}                             & \textbf{Si}                                & \textbf{Si}        \\ \hline
+								\textbf{E2}        & 2                                & 1                                        & 1                                      & No                                         & No                 \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 2, Historia de Usuario 4, Subhistoria 4}
+						\end{table}
+
+						\descripcionBasicaS
+
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido)}                                                                                                                                            & \textbf{E2 (inválido)}                                                                                                                                             \\ \hline
+								\textbf{Given} &
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm} 
+									\item Un usuario registrado
+									\item Tiene dos ubicaciones guardadas ('Castellón' y 'Valencia')
+									\item De ellas todas están activadas
+									\item API dispone de un servicio ('Noticias')
+								\end{itemize}& 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Tiene tres ubicaciones guardadas
+									\item La ubicación 'Antártica' está activa
+									\item API dispone de un servicio ('Noticias')
+								\end{itemize}\\ \hline
+								\textbf{When}  & Cuando solicita a la API la información sobre los servicios de la ubicación 'Castellón'                                                                         & Cuando solicita a la API la información sobre los servicios de la ubicación 'Antártica'                                                                            \\ \hline
+								\textbf{Then}  & La API deberá devolviera información de las noticias de 'Castellón'                                                                                              & La API devolverá un paquete vacío                                                                                                                                  \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 4, Subhistoria 4}
+						\end{table}
+						\end{center}
+
+						\newpage
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoS
+
+						\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 2, Historia de usuario 5}
+				Como usuario quiero consultar el histórico de ubicaciones, con el fin de facilitar la reactivación de alguna en caso de necesidad.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Cantidad de ubicaciones} & \textbf{Cantidad de ubicaciones activas} & \textbf{Resultado} \\ \hline
+							\textbf{E1}        & 2                                & 1                                        & Si                 \\ \hline
+							\textbf{E2}        & 2                                & 0                                        & No                 \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 2, Historia de Usuario 5}
+					\end{table}
+
+					\descripcionBasicaT
+				
+					\newpage
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                                           & \textbf{E2 (inválido)}                                                                                                               \\ \hline
+							\textbf{Given} &
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm} 
+								\item Un usuario registrado
+								\item Tiene dos ubicaciones guardadas ('Castellón' y 'Valencia')
+								\item De ellas una está activadas ('Castellón')
+							\end{itemize}& 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item No tiene tres ubicaciones guardadas
+								\item ('Castellano' y 'Valencia')
+								\item Todas ellas activadas ('Castellón', 'Valencia')
+							\end{itemize}\\ \hline
+							\textbf{When}  & Cuando solicita a la API la información sobre sus ubicaciones desactivadas                                                     & Cuando solicita a la API la información sobre sus ubicaciones desactivadas                                                           \\ \hline
+							\textbf{Then}  & La API deberá devolver un paquete de información por cada ubicación desactivada. / En este caso: ('Valencia')                  & La API devolverá un paquete vacío                                                                                                    \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 2, Historia de Usuario 5}
+					\end{table}
+					\end{center}
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoT
+
+					\newpage
+
+
+
+			\subsubsection{Requisito básico 3 - Activar servicios API a partir de una lista}
+				El tercer requisito básico de esta aplicación trata de seleccionar (activar) servicios API a partir de un listado de servicios externos disponibles.
+				\paragraph{Requisito básico 3, Historia de usuario 1}
+				Como usuario quiero consultar la lista de servicios de información disponibles (API), con el fin de elegir (activar) aquellos de interés.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Servicios disponibles} & \textbf{Respuesta} \\ \hline
+							\textbf{E1}        & 1                              & Si                 \\ \hline
+							\textbf{E2}        & 0                              & No                 \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 3, Historia de Usuario 1}
+					\end{table}
+
+					\descripcionBasicaU
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                        & \textbf{E2 (inválido)}                                     \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Un servicio disponible ('Clima')
+							\end{itemize}& 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Ningún servicio disponible
+							\end{itemize} \\ \hline
+							\textbf{When}  & Un usuario solicita una lista de los servicios disponibles  & Un usuario solicita una lista de los servicios disponibles \\ \hline
+							\textbf{Then}  & Devuelve un listado con los servicios disponibles ('Clima') & Devuelve un listado vacío                                  \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 3, Historia de Usuario 1}
+					\end{table}
+					\end{center}
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoU
+					\vspace*{5mm}
+
+				\paragraph{Requisito básico 3, Historia de usuario 2}
+				Como usuario quiero activar un servicio de información (API), entre aquellos disponibles. 
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenario} & \textbf{Servicios disponibles} & \textbf{Servicios activados previas} & \textbf{Servicios activados después} & \textbf{BBDD modificada} \\ \hline
+							\textbf{E1}        & 1                              & 0                                    & 1                                    & Si                       \\ \hline
+							\textbf{E2}        & 1                              & 0                                    & 0                                    & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 3, Historia de Usuario 2}
+					\end{table}
+
+					\descripcionBasicaV
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1(válido)}                                                               & \textbf{E2 (inválido)}                                                            \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Un servicio disponible 'Clima'
+								\item Ningún servicio activado
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Un servicio disponible 'Clima'
+								\item Ningún servicio activado
+							\end{itemize} \\ \hline
+							\textbf{When}  & Una usuario solicita activar el servicio 'Clima'                                  & Una usuario solicita activar el servicio 'INVALIDO'                               \\ \hline
+							\textbf{Then}  & Un servicio activado 'Clima'                                                      & Ningún servicio activado                                                          \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 3, Historia de Usuario 2}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoV
+
+					\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 3, Historia de usuario 3}
+				Como usuario quiero conocer una breve descripción de cada fuente de información disponible (e.g. perfil de información, frecuencia de actualización, etc.), para poder tomar decisiones fundamentadas.
+	
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Servicios disponibles} & \textbf{API disponibles} & \textbf{Servicio valido} & \textbf{Respuesta} \\ \hline
+								\textbf{E1}        & 1                              & \textbf{Si}              & \textbf{Si}              & \textbf{Si}        \\ \hline
+								\textbf{E2}        & 1                              & Si                       & No                       & No                 \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 3, Historia de Usuario 3}
+						\end{table}
+
+						\descripcionBasicaW
+	
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido)}                                   & \textbf{E2 (inválido)}                                  \\ \hline
+								\textbf{Given} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Un servicio disponible 'Clima'
+								\end{itemize} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Un servicio disponible 'Clima'
+								\end{itemize}  \\ \hline
+								\textbf{When}  & Se solicita la información sobre el servicio 'Clima'   & Se solicita la información sobre el servicio 'INVALIDO' \\ \hline
+								\textbf{Then}  & Devuelve nombre y descripción del servicio del 'Clima' & No devuelve información relevante                       \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 3, Historia de Usuario 3}
+						\end{table}
+						\end{center}
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoW
+
+						\vspace*{5mm}
+
+
+				\paragraph{Requisito básico 3, Historia de usuario 4}
+				Como usuario quiero desactivar un servicio de información que haya dejado de interesar, con el fin de evitar interfaces de usuario sobrecargadas.
+		
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.12\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|p{0.14\linewidth}|}
+								\hline
+								\textbf{Escenario} & \textbf{Servicios disponibles} & \textbf{Servicios activados previas} & \textbf{Servicios activados después} & \textbf{BBDD modificada} \\ \hline
+								\textbf{E1}        & 1                              & \textbf{1}                           & \textbf{0}                           & \textbf{Si}              \\ \hline
+								\textbf{E2}        & 1                              & 1                                    & 1                                    & No                       \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito básico 3, Historia de Usuario 4}
+						\end{table}
+					
+						\newpage
+
+						\descripcionBasicaX
+
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1(válido)}                                                                   & \textbf{E2 (inválido)}                                                                \\ \hline
+								\textbf{Given} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Un servicio disponible 'Clima'
+									\item Un servicio activado 'Clima'
+								\end{itemize} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario registrado
+									\item Un servicio disponible 'Clima'
+									\item Un servicio activado 'Clima'
+								\end{itemize} \\ \hline
+								\textbf{When}  & Una usuario solicita desactivar el servicio 'Clima'                                   & Una usuario solicita desactivar el servicio 'INVALIDO'                                \\ \hline
+								\textbf{Then}  & No hay ningún servicio activo                                                       & No se ha cambiado ningún estado                                                           \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito básico 3, Historia de Usuario 4}
+						\end{table}
+						\end{center}
+
+						\begin{center}
+							\textbf{\underline{Tests de integración y aceptación}}
+						\end{center}
+	
+						\testBasicoX
+
+						\newpage
+
+
+			\subsubsection{Requisito básico 4 - Recuperar el último estado de la aplicación}
+			El cuarto y último requisito básico de esta aplicación consta de recuperar el último estado de la aplicación (e.g. ubicaciones, servicios, suscripciones, etc.) cada vez que se inicializa.\\
+
+			\emph{Debido a que utilizamos una base de datos empotrada, en vez de remota, no hay fallos de conexión; por lo tanto tampoco hay casos inválidos, tan solo puede fallar las abstracciones o otras clases que dependan de ella.}
+
+				\paragraph{Requisito básico 4, Historia de usuario 1}
+				Como usuario quiero que cada vez que inicie la aplicación, sus contenidos y aspecto sean idénticos a los que había la última vez que se cerró, con el fin de evitar reconfigurarla en cada uso.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenarios} & \textbf{Primer inicio} & \textbf{Configuración matenida} & \textbf{BBDD modificada} \\ \hline
+							\textbf{E1}         & Si                     & No                              & Si                       \\ \hline
+							\textbf{E2}         & No                     & Si                              & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito básico 4, Historia de Usuario 1}
+					\end{table}
+
+					\descripcionBasicaY
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                            & \textbf{E2 (válido)}                                                         \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario no registrado
+								\item Ninguna ubiación guardada
+								\item Ningún servicio añadido
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario registrado
+								\item Ninguna ubicación guardada
+								\item Ningún servicio añadido
+							\end{itemize} \\ \hline
+							\textbf{When}  & Se crea la cuenta                                                               & Accedemos a la sesión                                                        \\ \hline
+							\textbf{Then}  & El usuarios se ha añadido a la base de datos                                    & El usuario sigue igual en la base de datos                                   \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito básico 4, Historia de Usuario 1}
+					\end{table}
+					\end{center}
+
+					\newpage
+					
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testBasicoY
+
+					\vspace*{5mm}
+
+				\paragraph{Requisito básico 4, Historia de usuario 2}
+					Como usuario quiero que la historia anterior se cumpla aunque el cierre de la aplicación haya sido involuntario (e.g. un corte de luz).\\
+
+					\emph{Debido a lo mencionado en el requisito y que esta historia requiere que se guarde después de cada modificación, hemos optado por apuntar lo en cada historia como una columna adicional; si la sus aspectos se han guardados y se restaurarán la próxima vez que se inicie la aplicación, esta está marcada con un 'si'.}
+
+\newpage					
+		\subsection{Requisitos avanzados}
+			Además de los requisitos que la guía del proyecto nos ha ofrecido, como grupo hemos pensado que sería interesante dotar de funcionalidades extra a nuestra aplicación mediante algunos requisitos adicionales (de caracter avanzado). Es por ello por lo que consideramos que los siguientes requisitos avanzados son en parte una mejora de la aplicación tanto en usabilidad como en funcionalidad de la misma.
+
+			\subsubsection{Requisito avanzado 1 - Crear cuentas en la aplicación}
+			Permitir a los usuarios crear cuentas en la aplicación, estas servirán a modo de identificación y mantendrán la información de configuración y ubicaciones guardadas de los usuarios de la aplicación.
+				\paragraph{Requisito avanzado 1, Historia de usuario 1}
+				Como usuario quiero poder crear unas credenciales únicas que sirvan para identificarse en la aplicación.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenarios} & \textbf{Usuario válido} & \textbf{Contraseña válida} & \textbf{Cuenta creada} & \textbf{BBDD modificada} \\ \hline
+							\textbf{E1}         & Si                      & Si                         & Si                     & Si                       \\ \hline
+							\textbf{E2}         & Si                      & No                         & No                     & No                       \\ \hline
+							\textbf{E3}         & No                      & Si                         & No                     & No                       \\ \hline
+							\textbf{E4}                  & No                      & No                         & No                     & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito avanzado 1, Historia de Usuario 1}
+					\end{table}
+
+					\descripcionAvanzadaA
+
+					\newpage
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                            & \textbf{E3 (inválido)}                                                                 \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Usuario no tiene la cuenta con los datos.
+								\item Usuario: \texttt{id} y Contraseña: \texttt{id}
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Usuario tiene cuenta con los datos.
+								\item Usuario: \texttt{id} y Contraseña: \texttt{id}
+							\end{itemize} \\ \hline
+							\textbf{When}  & Un usuario intenta crear una cuenta                                             & Un usuario intenta crear una cuenta                                                    \\ \hline
+							\textbf{Then}  & Se crea una cuenta en el sistema con esas credenciales                          & No se puede crear la cuenta porque el usuario ya se encuentra registrado en el sistema \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito avanzado 1, Historia de Usuario 1}
+					\end{table}
+					\end{center}
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testAvanzadoA
+
+					\vspace*{5mm}
+
+				\paragraph{Requisito avanzado 1, Historia de usuario 2}
+					Como usuario quiero poder eliminar unas credenciales únicas para que ya no estén disponibles para iniciar esa sesión.
+	
+					\begin{center}
+						\textbf{\underline{Escenarios}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+								\hline
+								\textbf{Escenarios} & \textbf{Usuario y con una sesión} & \textbf{Cuenta eliminada} & \textbf{BBDD modificada} \\ \hline
+								\textbf{E1}         & Si                                                   & Si                        & Si                       \\ \hline
+								\textbf{E2}         & No                                                   & No                        & No                       \\ \hline
+								\end{tabular}
+							\caption{Escenarios Requisito avanzado 1, Historia de Usuario 2}
+						\end{table}
+
+						\descripcionAvanzadaB
+
+						\newpage
+	
+						\textbf{\underline{Pruebas de aceptación}}
+						\begin{table}[H]
+							\centering
+							\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+								\hline
+								\textbf{}      & \textbf{E1 (válido)}                                                                                & \textbf{E2 (inválido)}                                                                                 \\ \hline
+								\textbf{Given} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario con sesión
+									\item Unas credenciales correspondientes a una cuenta válida
+									\item Usuario: \texttt{id} y Contraseña: \texttt{id}
+								\end{itemize} & 
+								\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+									\item Un usuario sin sesión								\end{itemize} \\ \hline
+								\textbf{When}  & El usuario intenta borrar su cuenta de usuario                                                      & El usuario intenta borrar su cuenta de usuario                                                         \\ \hline
+								\textbf{Then}  & La cuenta es eliminada y esas credenciales ya no corresponden con una sesión de usuario                & El proceso de borrado no se llevará a cabo                                                             \\ \hline
+								\end{tabular}
+							\caption{Pruebas de aceptación, Requisito avanzado 1, Historia de Usuario 2}
+						\end{table}
+						\end{center}
+
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testAvanzadoB
+
+						\newpage
+
+
+				\paragraph{Requisito avanzado 1, Historia de usuario 3}
+				Como usuario quiero poder cambiar la contraseña de mi cuenta.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenarios} & \textbf{Usuario con una sesión} & \textbf{Nueva contraseña válida} & \textbf{Cambio de contraseña efectuado} & \textbf{BBDD modificada} \\ \hline
+							\textbf{E1}         & Si                                                   & Si                               & Si                                      & Si                       \\ \hline
+							\textbf{E2}         & Si                                                   & No                               & No                                      & No                       \\ \hline
+							E3                  & No                                                   & Si                               & No                                      & No                       \\ \hline
+							E4                  & No                                                   & No                               & No                                      & No                       \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito avanzado 1, Historia de Usuario 3}
+					\end{table}
+
+					\descripcionAvanzadaC
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                                                                             & \textbf{E3 (inválido)}                                                                                                                                    \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario con sesión
+								\item Unas credenciales correspondientes a una cuenta válida.
+								\item Usuario: \texttt{id} y contraseña: \texttt{id}
+								\item Una nueva contraseña válida: \texttt{idNuevo}
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario sin sesión						\end{itemize} \\ \hline
+							\textbf{When}  & El usuario intenta actualizar su contraseña                                                                                                                      & El usuario intenta actualizar su contraseña                                                                                                               \\ \hline
+							\textbf{Then}  & La contraseña es actualizada con éxito                                                                                                                           & La contrasenya no será actualizada                                                                                                                        \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito avanzado 1, Historia de Usuario 3}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+
+					\testAvanzadoC
+
+					\newpage
+
+
+				\paragraph{Requisito avanzado 1, Historia de usuario 4}
+				Como usuario quiero poder iniciar sesión con unas credenciales únicas para que se me identifique temporalmente en la aplicación.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.20\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenarios} & \textbf{Credenciales válidas} & \textbf{\begin{tabular}[c]{@{}l@{}}Sesión\\ iniciada \\ anteriormente\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Sesión iniciada\\ posteriormente\end{tabular}} \\ \hline
+							\textbf{E1}         & Si                            & No                                                                         & Si                                                                       \\ \hline
+							\textbf{E2}         & No                            & No                                                                                  & No                                                                                \\ \hline
+							\textbf{E3}         & Si                            & Si                                                                                  & Si                                                                                \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito avanzado 1, Historia de Usuario 4}
+					\end{table}
+
+					\descripcionAvanzadaD
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                & \textbf{E2 (inválido)}                                                                               \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Unas credenciales correspondientes a una cuenta válida
+								\item Usuario: \texttt{id} y Contraseña: \texttt{id}
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Unas credenciales que no corresponden a ninguna cuenta válida
+								\item Usuario: \texttt{idNuevo} y Contraseña: \texttt{idNuevo}
+							\end{itemize} \\ \hline
+							\textbf{When}  & Cuando el usuario intenta iniciar sesión                                                            & Cuando el usuario intenta iniciar sesión                                                             \\ \hline
+							\textbf{Then}  &  Tiene acceso a los recursos propios de una sesión                                                    &       No inicia sesion y no tiene acceso a recursos que dependan de una sesión y no tiene acceso a recursos que dependan de una sesión.                                                                                         \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito avanzado 1, Historia de Usuario 4}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testAvanzadoD
+
+					\newpage
+
+
+				\paragraph{Requisito avanzado 1, Historia de usuario 5}
+				Como usuario quiero poder cerrar sesión con unas credenciales únicas para que no me identifique temporalmente la aplicación.
+
+				\begin{center}
+					\textbf{\underline{Escenarios}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.14\linewidth}|p{0.25\linewidth}|p{0.25\linewidth}|p{0.25\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+							\hline
+							\textbf{Escenarios} & \textbf{Usuario con una sesión} & \textbf{\begin{tabular}[c]{@{}l@{}}Sesión iniciada\\ anteriormente\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Sesión\\ iniciada\\ posteriormente\end{tabular}} \\ \hline
+							\textbf{E1}         & Si                              & Si                                                                     & No                                                                    \\ \hline
+							\textbf{E2}         & No                              & No                                                                               & No                                                                                \\ \hline
+							\textbf{E3}         & Si                              & Si                                                                               & Si                                                                                \\ \hline
+							\end{tabular}
+						\caption{Escenarios Requisito avanzado 1, Historia de Usuario 5}
+					\end{table}
+
+					\descripcionAvanzadaE
+
+					\textbf{\underline{Pruebas de aceptación}}
+					\begin{table}[H]
+						\centering
+						\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+							\hline
+							\textbf{}      & \textbf{E1 (válido)}                                                                                & \textbf{E2 (inválido)}                                                                               \\ \hline
+							\textbf{Given} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario con sesión
+								\item Unas credenciales correspondientes a una cuenta válida
+								\item Usuario: usuario y Contraseña: contraseña
+							\end{itemize} & 
+							\begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+								\item Un usuario sin sesión
+							\end{itemize} \\ \hline
+							\textbf{When}  & Cuando el usuario intenta iniciar sesión                                                            & Cuando el usuario intenta iniciar sesión                                                             \\ \hline
+							\textbf{Then}  &    Ya no podrá acceder a los recursos dependientes de sesión como ubicaciones guardados
+							&            La sesión seguirá sin existir                                                                                         \\ \hline
+							\end{tabular}
+						\caption{Pruebas de aceptación, Requisito avanzado 1, Historia de Usuario 5}
+					\end{table}
+					\end{center}
+
+					\newpage
+
+
+					\begin{center}
+						\textbf{\underline{Tests de integración y aceptación}}
+					\end{center}
+
+					\testAvanzadoE
+
+					\newpage
+
+
+			
+
+
+			\subsubsection{Requisito avanzado 2 - Modo invitado}
+				Para permitir un uso más fluido de la aplicación para los usuarios que naveguen por la red, la aplicación proporcionará un modo invitado. Aquellos usuarios que entren a la aplicación y no tengan una sesión iniciada podrán utilizar la aplicación con normalidad pero sus cambios no se quedarán registrados para la próxima vez que inicie sesión.
+
+
+				\paragraph{Requisito avanzado 2, Historia de usuario 1}
+				Como usuario quiero poder realizar todas las acciones sin tener que registrarme para poder probar la aplicación sin tener que dar mis datos.\\
+
+				\textit{Los test descritos en los requisitos 1, 2 y 3 deberán pasar también con una sesión de invitado, exceptuando el aspecto de la modificación de la base de datos. Sin embargo, a modo de simplificación, para no duplicar el trabajo, solo se implementara la historia 1 del requisito 1.}
+
+
+				\begin{center}
+					\textbf{\underline{Tests de integración y aceptación}}
+				\end{center}
+
+				\testAvanzadoF
+
+				\paragraph{Requisito avanzado 2, Historia de usuario 2}
+				Como usuario quiero poder transformar una cuenta de invitado a una permanente para no necesitar recrear los ajustes de una en la otra.
+
+							\begin{center}
+								\textbf{\underline{Escenarios}}
+								\begin{table}[H]
+									\centering
+									\begin{tabular}{|p{0.14\linewidth}|p{0.14\linewidth}|p{0.13\linewidth}|p{0.14\linewidth}|p{0.13\linewidth}|p{0.14\linewidth}|p{0.12\linewidth}|}
+										\hline
+										\textbf{Escenarios} & \textbf{Cantidad de servicios} & \textbf{Usuario válido} & \textbf{Contraseña válida} & \textbf{Cuenta creada} & \textbf{BBDD modificada} \\ \hline
+										E1                  & 1                              & Si                      & Si                         & Si                     & Si                       \\ \hline
+										E2                  & 0                              & Si                      & No                         & No                     & No                       \\ \hline
+										E3                  & 1                              & No                      & Si                         & No                     & No                       \\ \hline
+										E4                  & 0                              & No                      & No                         & No                     & No                       \\ \hline
+										\end{tabular}
+									\caption{Escenarios Requisito avanzado 2, Historia de Usuario 2}
+								\end{table}
+
+								\descripcionAvanzadaG
+
+								\textbf{\underline{Pruebas de aceptación}}
+								\begin{table}[H]
+									\centering
+									\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+										\hline
+										& \textbf{E1 (válido)}                                                                        & \textbf{E3 (inválido)}                                                                 \\ \hline
+						 \textbf{Given} & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							 \item Usuario no tiene cuenta con los datos:
+							 \item Usuario: id
+							 \item Contraseña: id
+							 \item Tiene un servicio activo ('Clima')
+						 \end{itemize}                                                                                   & \begin{itemize}\vspace{-5mm}\setlength\itemsep{0mm}\setlength\parskip{0mm}\setlength{\itemindent}{-5mm}
+							 \item Usuario tiene cuenta con los datos:
+							 \item Usuario: id
+							 \item Contraseña: id
+							 \item Tiene un servicio activo ('Clima')						 \end{itemize}                                                                               \\ \hline
+						 \textbf{When}  & Un usuario intenta crear una cuenta                                                         & Un usuario intenta crear una cuenta                                                    \\ \hline
+						 \textbf{Then}  & Se crea una cuenta en el sistema con esas credenciales y tiene un servicio activo ('Clima') & No se puede crear la cuenta porque el usuario ya se encuentra registrado en el sistema \\ \hline
+						 \end{tabular}
+									\caption{Pruebas de aceptación, Requisito avanzado 2, Historia de Usuario 2}
+								\end{table}
+								\end{center}
+
+
+								\begin{center}
+									\textbf{\underline{Tests de integración y aceptación}}
+								\end{center}
+
+								\testAvanzadoG
+
+				
+					\newpage
+
+				\subsubsection{Requisito avanzado 3 - Autocompletado de texto}
+					Para ofrecer una experiencia de usuario más fluida, la aplicación deberá ser capaz de ofrecer sugerencias de búsqueda una vez introducidos los primeros caracteres. Del total de sugerencias ofrecidas por la barra de búsqueda el usuario deberá ser capaz de elegir la que más se adapte a la búsqueda que pretende realizar.
+
+					\paragraph{Requisito avanzado 3, Historia de usuario 1}
+								Como usuario quiero recibir sugerencias de autocompletado correspondientes a ubicaciones para evitar potenciales búsquedas de ubicaciones inexistentes.
+
+							\begin{center}
+								\textbf{\underline{Escenarios}}
+								\begin{table}[H]
+									\centering
+									\begin{tabular}{|p{0.14\linewidth}|p{0.24\linewidth}|p{0.24\linewidth}|p{0.24\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|}
+										\hline
+										\textbf{Escenarios} & \textbf{Más de cuatro caracteres} & \textbf{Sugerencia de ubicación} & \textbf{Sugerencia correcta} \\ \hline
+										\textbf{E1}         & Si                                & Si                 		   & Si                  \\ \hline
+										\textbf{E2}         & Si                                & No                           & No                           \\ \hline
+										\textbf{E3}         & No                                & No                           & No                           \\ \hline
+										\end{tabular}
+									\caption{Escenarios Requisito avanzado 3, Historia de Usuario 1}
+								\end{table}
+
+								\descripcionAvanzadaH
+
+								\textbf{\underline{Pruebas de aceptación}}
+								\begin{table}[H]
+									\centering
+									\begin{tabular}{|p{0.10\linewidth}|p{0.40\linewidth}|p{0.40\linewidth}|}
+										\hline
+										\textbf{}      & \textbf{E1 (valido)}                      & \textbf{E2 (invalido)}                    \\ \hline
+										\textbf{Given} & Dados los caracteres: 'cast'              & Dados los caracteres: 'INVALIDO'            \\ \hline
+										\textbf{When}  & Solicita una sugerencia de autocompletado & Solicita una sugerencia de autocompletado \\ \hline
+										\textbf{Then}  & Devuelve una ubicación válida: 'Castellon'     & No devuelve ningúna ubicación                  \\ \hline
+										\end{tabular}
+									\caption{Pruebas de aceptación, Requisito avanzado 3, Historia de Usuario 1}
+								\end{table}
+								\end{center}
+
+								\newpage
+
+
+								\begin{center}
+									\textbf{\underline{Tests de integración y aceptación}}
+								\end{center}
+
+								\testAvanzadoH
+\end{document}

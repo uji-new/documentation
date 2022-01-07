@@ -1,0 +1,208 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Objetivos}{1}{subsection.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.1}Objetivos - Ingeniería del Software}{1}{subsubsection.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.2}Objetivos - Paradigmas del Software}{1}{subsubsection.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Acceso al código y material adicional}{2}{subsection.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Requisitos del proyecto}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Requisitos básicos}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Requisito básico 1 - Gestionar una ubicación de interés}{3}{subsubsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.1}Requisito básico 1, Historia de usuario 1}{3}{paragraph.2.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.2}Requisito básico 1, Historia de usuario 2}{6}{paragraph.2.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.3}Requisito básico 1, Historia de usuario 3}{8}{paragraph.2.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.4}Requisito básico 1, Historia de usuario 4}{11}{paragraph.2.1.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.5}Requisito básico 1, Historia de usuario 5}{13}{paragraph.2.1.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.6}Requisito básico 1, Historia de usuario 6}{16}{paragraph.2.1.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.7}Requisito básico 1, Historia de usuario 7}{19}{paragraph.2.1.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.8}Requisito básico 1, Historia de usuario 8}{21}{paragraph.2.1.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.9}Requisito básico 1, Historia de usuario 9}{24}{paragraph.2.1.1.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.1.10}Requisito básico 1, Historia de usuario 10}{27}{paragraph.2.1.1.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}Requisito básico 2 - Gestionar hasta tres ubicaciones de interés}{30}{subsubsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.2.1}Requisito básico 2, Historia de usuario 1}{30}{paragraph.2.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.2.2}Requisito básico 2, Historia de usuario 2}{35}{paragraph.2.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.2.3}Requisito básico 2, Historia de usuario 3}{42}{paragraph.2.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.2.4}Requisito básico 2, Historia de usuario 4}{44}{paragraph.2.1.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.2.5}Requisito básico 2, Historia de usuario 5}{58}{paragraph.2.1.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Requisito básico 3 - Activar servicios API a partir de una lista}{62}{subsubsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.3.1}Requisito básico 3, Historia de usuario 1}{62}{paragraph.2.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.3.2}Requisito básico 3, Historia de usuario 2}{64}{paragraph.2.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.3.3}Requisito básico 3, Historia de usuario 3}{66}{paragraph.2.1.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.3.4}Requisito básico 3, Historia de usuario 4}{68}{paragraph.2.1.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}Requisito básico 4 - Recuperar el último estado de la aplicación}{72}{subsubsection.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.4.1}Requisito básico 4, Historia de usuario 1}{72}{paragraph.2.1.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.4.2}Requisito básico 4, Historia de usuario 2}{74}{paragraph.2.1.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Requisitos avanzados}{75}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Requisito avanzado 1 - Crear cuentas en la aplicación}{75}{subsubsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.1.1}Requisito avanzado 1, Historia de usuario 1}{75}{paragraph.2.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.1.2}Requisito avanzado 1, Historia de usuario 2}{78}{paragraph.2.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.1.3}Requisito avanzado 1, Historia de usuario 3}{81}{paragraph.2.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.1.4}Requisito avanzado 1, Historia de usuario 4}{84}{paragraph.2.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.1.5}Requisito avanzado 1, Historia de usuario 5}{87}{paragraph.2.2.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Requisito avanzado 2 - Modo invitado}{90}{subsubsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.2.1}Requisito avanzado 2, Historia de usuario 1}{90}{paragraph.2.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.2.2}Requisito avanzado 2, Historia de usuario 2}{92}{paragraph.2.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3}Requisito avanzado 3 - Autocompletado de texto}{96}{subsubsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.3.1}Requisito avanzado 3, Historia de usuario 1}{96}{paragraph.2.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Planificación del proyecto}{99}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Spike o Iteración 0}{99}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Roadmap}{99}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Iteración 1}{99}{subsubsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Iteración 2}{100}{subsubsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3}Iteración 3}{101}{subsubsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Diseño}{102}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Diseño de la arquitectura de software}{102}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Tecnologías utilizadas}{103}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Dependencias y tecnologías}{103}{subsubsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Patrones de diseño}{105}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}Patrones identificados}{108}{subsubsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.1.1}Patrón Proxy}{108}{paragraph.4.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.1.2}Patrón Dependency Inversion}{108}{paragraph.4.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.1.3}Patrón Singleton}{108}{paragraph.4.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}Patrones implementados}{109}{subsubsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.2.1}Template Method}{109}{paragraph.4.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.2.2}Factory Method}{110}{paragraph.4.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.3.2.3}Facade Method}{111}{paragraph.4.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Pruebas}{112}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Diseño gráfico}{113}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1}Identidad propia}{113}{subsubsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.1.1}Misión, visión y valores}{113}{paragraph.4.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.1.2}Experiencia del cliente}{113}{paragraph.4.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.1.3}Logotipo}{114}{paragraph.4.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.1.4}Selección de color}{119}{paragraph.4.5.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.1.5}Tipografía}{122}{paragraph.4.5.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2}Interfaz de usuario}{127}{subsubsection.4.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.2.1}Bosquejo inicial}{127}{paragraph.4.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.2.2}Bosquejo de alta fidelidad}{128}{paragraph.4.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.2.3}Implementación real}{131}{paragraph.4.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {4.5.2.4}Responsividad y diseño en dispositivos móviles}{136}{paragraph.4.5.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Organización}{140}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Proyecto}{140}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Interfaz de Programación de Aplicaciones -- API}{140}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1}Tipos de datos}{141}{subsubsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.1.1}Básicos}{141}{paragraph.5.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2}Respuestas de servicios}{141}{subsubsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.2.1}\texttt {WEATHER}}{141}{paragraph.5.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.2.2}\texttt {EVENTS}}{141}{paragraph.5.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.2.3}\texttt {NEWS}}{142}{paragraph.5.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.3}Peticiones}{142}{subsubsection.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.3.1}Cuentas}{142}{paragraph.5.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.3.2}Ubicaciones}{144}{paragraph.5.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {5.2.3.3}Servicios}{145}{paragraph.5.2.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Postevaluaciones y conclusiones}{148}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Postevaluaciones}{148}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.1}Postevaluación de la arquitectura}{148}{subsubsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.2}Postevaluación de la interfaz}{148}{subsubsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Conclusiones}{149}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1}Cumplimiento de objetivos}{149}{subsubsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.2}Experiencia personal}{149}{subsubsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Referencias}{152}{appendix.Alph1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Documentación}{153}{appendix.Alph2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1}Frontend - \textit {Javascript}}{153}{subsection.Alph2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2}Backend - \textit {Java}}{153}{subsection.Alph2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Glosario}{155}{appendix.Alph3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1}Glosario descriptivo}{155}{subsection.Alph3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2}Siglas y acrónimos}{155}{subsection.Alph3.2}%

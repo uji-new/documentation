@@ -1,0 +1,52 @@
+\setcounter{secnumdepth}{4} %4 Niveles de profundidad en el texto
+\setcounter{tocdepth}{4} %4 Niveles de profundidad en el Indice
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\renewcommand{\lstlistingname}{Fragmento de código} %Cambia el nombre de los listings
+\renewcommand\lstlistlistingname{Índice de códigos} %Cambia el nombre del índice de los listings
+
+\newcommand\hr{\par\vspace{-.5\ht\strutbox}\noindent\hrulefill\par} %Barra horizontal
+
+\newcommand\posttext{
+	\begin{tcolorbox}[colback=green!5!white,colframe=black!25!green,width=1.3cm, height=0.6cm]
+		\vspace{-1.5mm}
+		\hfill\rlap{\hspace*{-5mm}\texttt{POST}}
+	\end{tcolorbox}
+}
+
+\newcommand\puttext{
+	\begin{tcolorbox}[colback=orange!5!white,colframe=black!25!orange,width=1.1cm, height=0.6cm]
+		\vspace{-1.5mm}
+		\hfill\rlap{\hspace*{-3mm}\texttt{PUT}}
+	  \end{tcolorbox}
+}
+
+\newcommand\gettext{
+	\begin{tcolorbox}[colback=blue!5!white,colframe=black!25!blue,width=1.1cm, height=0.6cm]
+		\vspace{-1.5mm}
+		\hfill\rlap{\hspace*{-3mm}\texttt{GET}}
+	  \end{tcolorbox}
+}
+
+\newcommand\deletetext{
+	\begin{tcolorbox}[colback=red!5!white,colframe=black!25!red,width=1.7cm, height=0.6cm]
+		\vspace{-1.5mm}
+		\hfill\rlap{\hspace*{-9mm}\texttt{DELETE}}
+	  \end{tcolorbox}
+}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\newcommand{\tabInicial}{\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad}
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~} %Items en tablas
+

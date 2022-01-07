@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+\usepackage{listingsutf8}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[a4paper, total={6.2in, 8.7in}]{geometry}
+\usepackage[type={CC}, modifier={by-nc-nd}, version={4.0},]{doclicense} %Certificado de Creative Commons
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{float}
+\usepackage{fancyvrb}
+\usepackage{qrcode}
+\usepackage[hidelinks]{hyperref}
+\usepackage[all]{xy}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{appendix}
+\usepackage{lscape} %Para poder poner páginas en modo apaisado
+\usepackage[T1]{fontenc} %Para usar caracteres especiales como pipes
+\usepackage{listings}
+\usepackage{tabto}
+\usepackage{dirtree} %Para incluir directorios
+\usepackage[normalem]{ulem}
+\usepackage{epigraph} %Para las quotes
+\usepackage[bottom]{footmisc}
+\usepackage[backend=biber]{biblatex}
+\usepackage{subfiles} %Para indexar subarchivos
+\usepackage{fontawesome5} %Iconos interesantes
+\usepackage[htt]{hyphenat} %No cortar palabras
+\usepackage{tcolorbox} %Cajas de colores para texto
+\usepackage{blindtext} %Complementario del anterior
+\usepackage{titlesec}
+\usepackage{ragged2e}
+\usepackage{lipsum} %Texto Lorem Lipsum
+
+
+
+\addbibresource{referencias.bib} 
+
+\input{params/comandos.tex} %Comandos renombrados y nuevos
+\input{params/estilos.tex} %Estilos del código y adicionales
+
+\input{params/codigostesteo.tex} %Códigos de los tests
+\input{params/descripcionestest.tex} %Descripciones de los tests
+
+
+\begin{document}
+\sloppy
+
+	\begin{center}
+		{\LARGE \textbf{Proyecto NEW(App)}}\\
+		\vspace{5mm}
+		EI1039 y EI1048 -- Proyecto conjunto\\
+
+		\vspace{15mm}
+
+		\begin{figure}[H]
+			\begin{center}
+			\includegraphics[scale=0.097]{images/LogoInicio.png}
+			\end{center}
+		\end{figure}
+
+		\vspace{-5mm}
+		Equipo de trabajo:
+	\end{center}
+	
+		
+			\begin{itemize}
+				\item[] \tabInicial Prosper Quiròs, M.A.; al386125@uji.es
+				\item[] \tabInicial Lavernia Artola, L.; al375080@uji.es 
+				\item[] \tabInicial Marzá Climent,  E.; al377101@uji.es
+			\end{itemize}
+		
+
+	\thispagestyle{empty}
+	
+	\newpage
+	\thispagestyle{empty}
+	\vspace*{\fill}
+	\setlength{\epigraphwidth}{0.65\textwidth}
+	\epigraph{It's not human nature to be great. It's human nature to survive, to be average and do what you have to do to get by. That is normal. When you have something good happen, it's the special people that can stay focused and keep paying attention to detail, working to get better and not being satisfied with what they have accomplished.}{\textit{Nick Saban (1951)}}
+	\vspace*{\fill}
+
+
+
+
+
+	\newpage
+	\thispagestyle{empty}
+	\hrulefill
+	\subsubsection*{1.- Directorios y archivos adicionales:}
+		Acceso mediante código \texttt{QR} a los ficheros y directorios adicionales en \href{https://drive.google.com/drive/folders/12UCiPFkPC_MBHPvq8_ZDBdCT33m3mgSp?usp=sharing}{\underline{Google Drive}}:
+
+		\begin{figure}[H]
+			\begin{center}
+			\includegraphics[scale=0.15]{images/googledrive.png}
+			\end{center}
+		\end{figure}
+
+
+	\subsubsection*{2.- Sistema de Control de Versiones vía \texttt{GitHub}:}
+	Acceso mediante códigos \texttt{QR} a los repositorios del proyecto en \href{https://github.com/proyecto-new}{\underline{GitHub}}:
+
+		\begin{figure}[H]
+			\begin{center}
+			\includegraphics[scale=0.15]{images/githubdessign.png}
+			\end{center}
+		\end{figure}
+
+\vfill
+\vspace*{\fill}
+\hrulefill
+\vfill
+
+\vspace{5mm}
+\noindent
+Todos los archivos, documentación y código que aparecen en este documento son propiedad del equipo de trabajo antes mencionado o en su defecto de la Universitat Jaume I.\\
+
+
+	\vspace*{\fill}
+	\hrulefill
+	\doclicenseThis
+	\newpage
+	\setcounter{page}{1}
+
+
+\newpage 
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\pagestyle{plain}
+\tableofcontents	%Introduce el índice del documento
+\newpage
+\listoffigures		%Introduce el índice de figuras
+\vspace*{\fill}
+\lstlistoflistings	%Introduce el índice de códigos
+\vspace*{\fill}
+\newpage
+\listoftables		%Introduce el índice de tablas
+
+
+
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\pagestyle{fancy}
+\fancyhead[HR]{EI1039/48 --- NEW(App)}
+\fancyhead[LE,LO]{}
+
+
+%Aqui va el inicio del documento
+
+
+% INTRODUCCION
+\subfile{sections/1-introduccion.tex}
+	
+% REQUISITOS DEL PROYECTO
+\newpage
+\subfile{sections/2-requisitosproyecto.tex}
+	
+% PLANIFICACION DEL PROYECTO
+\newpage
+\subfile{sections/3-planificacion.tex}
+
+% DISEÑO
+\newpage
+\subfile{sections/4-disenyo.tex}
+
+% ORGANIZACION
+\newpage
+\subfile{sections/5-organizacion.tex}
+
+% CONCLUSIONES
+\newpage
+\subfile{sections/6-conclusiones.tex}
+
+
+%APENDICES
+\newpage
+\subfile{sections/A-apendices.tex}
+
+
+\end{document}
